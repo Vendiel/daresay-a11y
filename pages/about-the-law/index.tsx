@@ -1,16 +1,15 @@
 import Head from "next/head";
-import Link from "next/link";
 
-export default function ReportPage() {
+export default function AboutLawPage() {
   return (
     <>
       <Head>
-        <title>Daresay Accessibility Checklist - Accessibility report</title>
+        <title>Daresay Accessibility Checklist - About the law</title>
       </Head>
 
       <div className={"colored"}>
         <section className={"wrapper"}>
-          <h1>Accessibility report</h1>
+          <h1>About the Law</h1>
           <p className={"ingress"}>Lorem ipsum.</p>
           <p className={"ingress"}>Dolor set.</p>
         </section>

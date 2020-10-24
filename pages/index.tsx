@@ -128,13 +128,13 @@ export default function Home({
           <RelatedCard
             icon="🖋"
             linkText="About the law"
-            url="/"
+            url="/about-the-law"
             colorTheme={ColorTheme.COLOR1}
           />
           <RelatedCard
             icon="👩‍🦼"
             linkText="Understanding the user"
-            url="/"
+            url="/understanding-the-user"
             colorTheme={ColorTheme.COLOR2}
           />
         </div>
@@ -142,13 +142,13 @@ export default function Home({
           <RelatedCard
             icon="🎖"
             linkText="Your role and responsibility"
-            url="/"
+            url="/roles-and-responsibility"
             colorTheme={ColorTheme.COLOR3}
           />
           <RelatedCard
             icon="📐"
             linkText="Helpful tools"
-            url="/"
+            url="/helpful-tools"
             colorTheme={ColorTheme.COLOR4}
           />
         </div>
