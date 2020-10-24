@@ -36,11 +36,11 @@
 
 a.color1:link,
 a.color1:visited {
-  color: #b3115a;
+  color: var(--color-card1-dark);
 }
 
 .color1 .arrow {
-  fill: #b3115a;
+  fill: var(--color-card1-dark);
 }
 
 /*  Color 2  */
@@ -51,10 +51,10 @@ a.color1:visited {
 
 a.color2:link,
 a.color2:visited {
-  color: #6b026b;
+  color: var(--color-card2-dark);
 }
 .color2 .arrow {
-  fill: #6b026b;
+  fill: var(--color-card2-dark);
 }
 
 /*  Color 3  */
@@ -65,11 +65,11 @@ a.color2:visited {
 
 a.color3:link,
 a.color3:visited {
-  color: #0a49a0;
+  color: var(--color-card3-dark);
 }
 
 .color3 .arrow {
-  fill: #0a49a0;
+  fill: var(--color-card3-dark);
 }
 
 /*  Color 4  */
@@ -80,11 +80,11 @@ a.color3:visited {
 
 a.color4:link,
 a.color4:visited {
-  color: #065f7a;
+  color: var(--color-card4-dark);
 }
 
 .color4 .arrow {
-  fill: #065f7a;
+  fill: var(--color-card4-dark);
 }
 
 /* .color1 {

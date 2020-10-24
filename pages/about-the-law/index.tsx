@@ -7,11 +7,13 @@ export default function AboutLawPage() {
         <title>Daresay Accessibility Checklist - About the law</title>
       </Head>
 
-      <div className={"colored"}>
+      <div className={"colored-bg1"}>
         <section className={"wrapper"}>
-          <h1>About the Law</h1>
-          <p className={"ingress"}>Lorem ipsum.</p>
-          <p className={"ingress"}>Dolor set.</p>
+          <div>
+            <h1>About the law</h1>
+            <p className={"ingress"}>Lorem ipsum.</p>
+            <p className={"ingress"}>Dolor set.</p>
+          </div>
         </section>
       </div>
     </>

@@ -7,11 +7,13 @@ export default function AboutUserPage() {
         <title>Daresay Accessibility Checklist - Understanding the user</title>
       </Head>
 
-      <div className={"colored"}>
+      <div className={"colored-bg2"}>
         <section className={"wrapper"}>
-          <h1>Understanding the user</h1>
-          <p className={"ingress"}>Lorem ipsum.</p>
-          <p className={"ingress"}>Dolor set.</p>
+          <div>
+            <h1>Understanding the user</h1>
+            <p className={"ingress"}>Lorem ipsum.</p>
+            <p className={"ingress"}>Dolor set.</p>
+          </div>
         </section>
       </div>
     </>

@@ -45,20 +45,6 @@ export default function Home({
         </section>
       </div>
 
-      {/* export const ComponentWithInjectedContent = () => {
-    return <ExampleComponentWithContent 
-        headline="This is an example headline"
-        content={
-            <>
-                <MyListComponent items={["Item 1", "Item 2", "Item 3"]}>
-                <p>This is my first paragraph</p>
-                <p>This is my second paragraph</p>
-            </>
-        }
-    />
-
-} */}
-
       <div className={"wrapper zero-padding-bottom"}>
         <MainCard
           icon="🤔"

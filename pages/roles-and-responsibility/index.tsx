@@ -9,11 +9,13 @@ export default function RolesPage() {
         </title>
       </Head>
 
-      <div className={"colored"}>
+      <div className={"colored-bg3"}>
         <section className={"wrapper"}>
-          <h1>Roles and responsibilites</h1>
-          <p className={"ingress"}>Lorem ipsum.</p>
-          <p className={"ingress"}>Dolor set.</p>
+          <div>
+            <h1>Your role and responsibility</h1>
+            <p className={"ingress"}>Lorem ipsum.</p>
+            <p className={"ingress"}>Dolor set.</p>
+          </div>
         </section>
       </div>
     </>

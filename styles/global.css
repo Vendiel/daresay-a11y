@@ -54,81 +54,61 @@ main {
   padding-top: var(--spacing-5x);
 }
 
-/* .card {
-  background-color: var(--color-white);
-  padding: var(--spacing-6x);
-  border-radius: 24px;
-}
+/* colored intro */
 
-.flex-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.card h2 {
-  margin-top: 0;
-}
-
-.card .card-icon {
-  margin-right: var(--spacing-3x);
-}
-
-.card span {
-  display: inline-block;
-  font-size: 3rem;
-  background-color: var(--color-primary-10);
-  padding: var(--spacing-2x);
-  border-radius: 8px;
-} */
-
-/*
-.related-info h2 {
-  border-top: 1px solid var(--color-gray-20);
-  margin: 0 0 var(--spacing-5x) 0;
-  padding-top: var(--spacing-5x);
-}
-
-.related-info a.card {
-  padding: var(--spacing-5x);
-  flex-basis: 50%;
-  text-decoration: none;
-  font-size: 1.125rem;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-}
-
-.related-info a img {
-  width: 30px;
-  margin-left: 16px;
-}
-
-.color1 {
+.colored-bg1 {
   background-color: var(--color-card1);
 }
 
-.color2 {
+.colored-bg1 .wrapper div {
+  border-left: 12px solid var(--color-card1-dark);
+  padding-left: var(--spacing-5x);
+}
+
+.colored-bg1 h1 {
+  color: var(--color-card1-dark);
+}
+
+.colored-bg2 {
   background-color: var(--color-card2);
 }
 
-.color3 {
+.colored-bg2 .wrapper div {
+  border-left: 12px solid var(--color-card2-dark);
+  padding-left: var(--spacing-5x);
+}
+
+.colored-bg2 h1 {
+  color: var(--color-card2-dark);
+}
+
+.colored-bg3 {
   background-color: var(--color-card3);
 }
 
-.color4 {
+.colored-bg3 .wrapper div {
+  border-left: 12px solid var(--color-card3-dark);
+  padding-left: var(--spacing-5x);
+}
+
+.colored-bg3 h1 {
+  color: var(--color-card3-dark);
+}
+
+.colored-bg4 {
   background-color: var(--color-card4);
 }
 
-.related-info .card span {
-  background: none;
-  font-size: 2rem;
-  padding: 0;
-  margin-right: var(--spacing-2x);
+.colored-bg4 .wrapper div {
+  border-left: 12px solid var(--color-card4-dark);
+  padding-left: var(--spacing-5x);
 }
 
-.card p {
-  max-width: 100%;
-} */
+.colored-bg4 h1 {
+  color: var(--color-card4-dark);
+}
+
+/* other */
 
 ol {
   margin: 32px 0 0 0;
