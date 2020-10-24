@@ -1,0 +1,4 @@
+.filter {
+  min-width: 25%;
+  margin-right: var(--spacing-4x);
+}

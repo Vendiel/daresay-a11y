@@ -1,0 +1,31 @@
+.card {
+  background-color: var(--color-primary-10);
+  padding: var(--spacing-5x);
+  border-radius: var(--spacing-4x);
+  margin: 0;
+  margin-bottom: var(--spacing-2x);
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.card legend {
+  font-weight: 700;
+  font-size: 1.2rem;
+  float: left;
+  width: 100%;
+  margin-bottom: var(--spacing-2x);
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card ul li {
+  margin-bottom: var(--spacing-2x);
+}
+
+.card ul li a {
+  text-decoration: none;
+}

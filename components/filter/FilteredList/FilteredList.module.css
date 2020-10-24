@@ -1,0 +1,14 @@
+.checklist {
+  list-style: none;
+  background-color: #ffffff;
+  border-radius: var(--spacing-2x);
+}
+
+.checklist li {
+  padding: var(--spacing-6x);
+  border-top: 1px solid var(--color-gray-10);
+}
+
+.checklist li:first-child {
+  border-top: none;
+}

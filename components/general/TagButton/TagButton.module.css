@@ -1,0 +1,24 @@
+.tagButton {
+  display: inline-block;
+  border-radius: var(--spacing-base);
+  padding: var(--spacing-base) var(--spacing-2x);
+  border: 1px solid var(--color-gray-40);
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.tagButton:visited {
+  color: var(--color-black);
+}
+
+.tagButton:visited {
+  color: var(--color-black);
+}
+
+/* a:link {color: blue;}
+a:visited {color: purple;}
+a:hover {color: red;}
+a:active {color: yellow;}
+Link, Visited, Hover, Active
+L, V, H, A
+LoVe, HAte */

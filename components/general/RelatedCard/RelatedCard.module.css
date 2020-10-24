@@ -1,0 +1,104 @@
+.card {
+  background-color: var(--color-white);
+  border-radius: 24px;
+  padding: var(--spacing-5x);
+  flex-basis: 50%;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-right: var(--spacing-3x);
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card span {
+  display: inline-block;
+  margin-right: var(--spacing-3x);
+  font-size: 2rem;
+  margin-right: var(--spacing-2x);
+}
+
+.arrow {
+  fill: var(--color-black);
+  width: 22px;
+  margin-left: 16px;
+}
+
+/*  Color 1  */
+
+.color1 {
+  background-color: var(--color-card1);
+}
+
+a.color1:link,
+a.color1:visited {
+  color: #b3115a;
+}
+
+.color1 .arrow {
+  fill: #b3115a;
+}
+
+/*  Color 2  */
+
+.color2 {
+  background-color: var(--color-card2);
+}
+
+a.color2:link,
+a.color2:visited {
+  color: #6b026b;
+}
+.color2 .arrow {
+  fill: #6b026b;
+}
+
+/*  Color 3  */
+
+.color3 {
+  background-color: var(--color-card3);
+}
+
+a.color3:link,
+a.color3:visited {
+  color: #0a49a0;
+}
+
+.color3 .arrow {
+  fill: #0a49a0;
+}
+
+/*  Color 4  */
+
+.color4 {
+  background-color: var(--color-card4);
+}
+
+a.color4:link,
+a.color4:visited {
+  color: #065f7a;
+}
+
+.color4 .arrow {
+  fill: #065f7a;
+}
+
+/* .color1 {
+  background-color: var(--color-card1);
+}
+
+.color2 {
+  background-color: var(--color-card2);
+}
+
+.color3 {
+  background-color: var(--color-card3);
+}
+
+.color4 {
+  background-color: var(--color-card4);
+} */

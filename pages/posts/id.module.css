@@ -1,0 +1,19 @@
+.article {
+  background-color: var(--color-white);
+  padding: var(--spacing-6x);
+  border-radius: var(--spacing-4x);
+}
+
+.tagGroup {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tagGroup li {
+  margin: 0 var(--spacing-2x) var(--spacing-base) 0;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}

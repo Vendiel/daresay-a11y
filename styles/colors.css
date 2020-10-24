@@ -1,0 +1,32 @@
+:root {
+  /* Primary blue */
+  --color-primary-80: #0067f3;
+  --color-primary-60: #66a4f8;
+  --color-primary-40: #99c2fa;
+  --color-primary-20: #cce1fd;
+  --color-primary-10: #e6f0fe;
+  --color-primary-5: #f2f7fe;
+
+  /* Grays */
+  --color-gray-80: #464a51;
+  --color-gray-60: #6f7277;
+  --color-gray-40: #a3a5a8;
+  --color-gray-20: #d1d2d3;
+  --color-gray-10: #e8e8e9;
+  --color-gray-5: #f6f6f6;
+
+  --color-black: #181d25;
+  --color-white: #ffffff;
+
+  /* Negative */
+  --color-negative: #e82017;
+
+  /* Positive */
+  --color-positive-60: #7fb289;
+
+  /* Related cards */
+  --color-card1: #ffdeed;
+  --color-card2: #f1cdf1;
+  --color-card3: #d9e9ff;
+  --color-card4: #c2edfa;
+}

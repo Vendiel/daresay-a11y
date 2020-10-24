@@ -1,0 +1,21 @@
+.card {
+  background-color: var(--color-white);
+  padding: var(--spacing-6x);
+  border-radius: 24px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card .cardicon {
+  margin-right: var(--spacing-3x);
+}
+
+.card span {
+  display: inline-block;
+  font-size: 3rem;
+  background-color: var(--color-primary-10);
+  padding: var(--spacing-2x);
+  border-radius: 8px;
+}

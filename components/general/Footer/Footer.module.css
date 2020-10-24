@@ -1,0 +1,17 @@
+.mainFooter {
+  padding: var(--spacing-4x);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  flex-basis: 50%;
+}
+
+.a11yreport {
+  flex-basis: 50%;
+  text-align: right;
+}
