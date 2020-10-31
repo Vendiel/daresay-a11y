@@ -8,14 +8,6 @@ body {
   padding: var(--spacing-7x) var(--spacing-4x);
 }
 
-.zero-padding-bottom {
-  padding-bottom: 0;
-}
-
-.zero-margin-bottom {
-  margin-bottom: 0;
-}
-
 .margin-bottom-6x {
   margin-bottom: var(--spacing-6x);
 }
@@ -108,7 +100,20 @@ main {
   color: var(--color-card4-dark);
 }
 
-/* other */
+/* card */
+
+.card {
+  background-color: var(--color-white);
+  padding: var(--spacing-6x);
+  border-radius: 24px;
+  margin-bottom: var(--spacing-6x);
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+/* lists */
 
 ol {
   margin: 32px 0 0 0;
@@ -117,7 +122,7 @@ ol {
 }
 
 ol li {
-  margin: 16px 0 0 0;
+  margin: var(--spacing-2x) 0 0 0;
   counter-increment: the-counter;
 }
 
@@ -125,4 +130,57 @@ ol li::before {
   content: counter(the-counter) ". ";
   font-weight: 700;
   margin-right: var(--spacing-base);
+}
+
+ul {
+  margin: var(--spacing-2x) 0 var(--spacing-3x) 0;
+  padding-left: var(--spacing-5x);
+  list-style: none;
+}
+
+ul li {
+  margin: 0 0 var(--spacing-2x) 0;
+}
+
+ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  font-weight: bold;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.color1 li::before {
+  color: var(--color-card1-dark);
+}
+
+.color2 li::before {
+  color: var(--color-card2-dark);
+}
+
+.color3 li::before {
+  color: var(--color-card3-dark);
+}
+
+.color4 li::before {
+  color: var(--color-card4-dark);
+}
+
+/* images */
+
+main img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+/* zero padding margins etc */
+
+.zero-padding-bottom {
+  padding-bottom: 0;
+}
+
+.zero-margin-bottom {
+  margin-bottom: 0;
 }

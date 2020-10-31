@@ -87,6 +87,21 @@ a.color4:visited {
   fill: var(--color-card4-dark);
 }
 
+/*  Color 5  */
+
+.color5 {
+  background-color: var(--color-card5);
+}
+
+a.color5:link,
+a.color5:visited {
+  color: var(--color-card5-dark);
+}
+
+.color5 .arrow {
+  fill: var(--color-card5-dark);
+}
+
 /* .color1 {
   background-color: var(--color-card1);
 }

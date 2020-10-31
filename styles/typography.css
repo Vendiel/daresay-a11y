@@ -1,5 +1,7 @@
 body {
   font-family: "Libre Franklin", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: var(--color-black);
 }
 
@@ -13,27 +15,25 @@ h2 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: var(--spacing-5x);
-  margin-bottom: var(--spacing-2x);
+  margin-bottom: var(--spacing-3x);
 }
 
 h3 {
   font-size: 1rem;
   font-weight: 700;
-  margin-top: var(--spacing-5x);
-  margin-bottom: var(--spacing-4x);
+  margin-top: var(--spacing-4x);
+  margin-bottom: var(--spacing-2x);
 }
 
 p {
-  font-size: 1rem;
-  line-height: 1.5rem;
-  margin-bottom: var(--spacing-4x);
+  margin-bottom: var(--spacing-2x);
 }
 
 p:last-child {
   margin-bottom: 0;
 }
 
-p.ingress {
+.ingress p {
   font-size: 1.125rem;
   line-height: 1.7rem;
 }
