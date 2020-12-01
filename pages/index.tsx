@@ -1,10 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
+import { LinkButton } from "../components/general/LinkButton/LinkButton";
 import { MainCard } from "../components/general/MainCard/MainCard";
-import {
-  ColorTheme,
-  RelatedCard,
-} from "../components/general/RelatedCard/RelatedCard";
+import { ColorTheme, RelatedCard } from "../components/general/RelatedCard/RelatedCard";
 
 export default function Home({
   allPostsData,
@@ -27,20 +25,15 @@ export default function Home({
               Hi <span aria-hidden="true">👋</span>
             </h1>
             <p className={"ingress"}>
-              Accessibility (<abbr>a11y</abbr>) is the practice of making your
-              digital service, experience and information understandable and
-              usable for everyone. It's also about treating everyone the same,
-              giving everyone equal opportunity, no matter ability or
-              circumstances.
+              Accessibility (<abbr>a11y</abbr>) is the practice of making your digital service, experience and
+              information understandable and usable for everyone. It's also about treating everyone the same,
+              giving everyone equal opportunity, no matter ability or circumstances.
             </p>
             <p className={"ingress"}>
-              At Daresay we incorporate this mindset in everything we do and by
-              sharing this checklist with you, we hope to make it easier for
-              other to do it as well.
+              At Daresay we incorporate this mindset in everything we do and by sharing this checklist with
+              you, we hope to make it easier for other to do it as well.
             </p>
-            <Link href={`/checklist`}>
-              <a>Go to checklist</a>
-            </Link>
+            <LinkButton url="/checklist" linktext="Go to checklist" />
           </div>
         </section>
       </div>
@@ -52,8 +45,8 @@ export default function Home({
           content={
             <>
               <p>
-                The checklist summarises the accessibility requirements with
-                focus on level A and AA that has been stated in{" "}
+                The checklist summarises the accessibility requirements with focus on level A and AA that has
+                been stated in{" "}
                 <Link href="/">
                   <a>Content Accessibility Guidelines (WCAG) 2.1</a>
                 </Link>
@@ -69,9 +62,8 @@ export default function Home({
           content={
             <>
               <p>
-                This checklist is developed to support our daily work at
-                Daresay, making it easier to understand how to design and
-                develop more accessible products and services.
+                This checklist is developed to support our daily work at Daresay, making it easier to
+                understand how to design and develop more accessible products and services.
               </p>
             </>
           }
@@ -80,12 +72,12 @@ export default function Home({
         <MainCard
           icon="🎨"
           header="How to use"
+          bottomMargin={false}
           content={
             <>
               <p>
-                The checklist is good to use before, during and after the design
-                phase or development phase. It's dividing it into the different
-                elements you use when creating an online experience.
+                The checklist is good to use before, during and after the design phase or development phase.
+                It's dividing it into the different elements you use when creating an online experience.
               </p>
               <ol>
                 <li>
@@ -94,14 +86,9 @@ export default function Home({
                   </Link>
                 </li>
                 <li>Find one or several categories that’s relevant for you</li>
-                <li>
-                  Read up on the requirements you need to cover for what you've
-                  selected
-                </li>
+                <li>Read up on the requirements you need to cover for what you've selected</li>
                 <li>Design or code to meet the requirements one at the time</li>
-                <li>
-                  Check the requirement off the checklist once you’ve done it
-                </li>
+                <li>Check the requirement off the checklist once you’ve done it</li>
               </ol>
             </>
           }

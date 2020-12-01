@@ -4,10 +4,14 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <footer className={styles.mainFooter}>
-      <span className={styles.copyright}>DARESAY &copy; 2020</span>
-      <Link href={`/accessibility-report`}>
-        <a className={styles.a11yreport}>Accessibility report</a>
-      </Link>
+      <div className={styles.copyright}>
+        <span> DARESAY &copy; 2020</span>
+      </div>
+      <div className={styles.a11yreport}>
+        <Link href={`/accessibility-report`}>
+          <a>Accessibility report</a>
+        </Link>
+      </div>
     </footer>
   );
 };

@@ -29,16 +29,26 @@ main {
   flex-direction: row;
 }
 
+/* focus */
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 5px solid var(--color-focus-general);
+}
+
 /* index related */
 
 .colored-bg {
   background-color: var(--color-primary-10);
 }
-
+/* 
 .colored-bg .wrapper div {
   border-left: 12px solid var(--color-primary-40);
   padding-left: var(--spacing-5x);
-}
+} */
 
 .related-info h2 {
   border-top: 1px solid var(--color-gray-20);

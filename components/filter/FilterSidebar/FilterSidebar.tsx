@@ -1,47 +1,39 @@
 import styles from "./FilterSidebar.module.css";
 import { FilterGroup } from "../FilterGroup/FilterGroup";
-import { AllGroupsAndTagsState } from "../../../pages/checklist";
+import { AllCheckboxStates } from "../../../pages/checklist";
 
 interface Props {
-  allGroupsAndTagsState: AllGroupsAndTagsState;
-  onAllGroupsAndTagsStateChanged: (
-    allGroupsAndTagsState: AllGroupsAndTagsState
-  ) => void;
+  allCheckboxStates: AllCheckboxStates;
+  onCheckboxChanged: (allCheckboxStates: AllCheckboxStates) => void;
 }
 
 export const FilterSidebar = (props: Props) => {
-  const { allGroupsAndTagsState, onAllGroupsAndTagsStateChanged } = props;
+  const { allCheckboxStates, onCheckboxChanged } = props;
 
   return (
     <section className={styles.filter}>
       <FilterGroup
-        tagStates={allGroupsAndTagsState.tagsState}
+        checkboxStates={allCheckboxStates.tagsCheckboxStates}
         onStateChanged={(tagsStates) => {
-          const allGroupsAndTagsStateCopy: AllGroupsAndTagsState = JSON.parse(
-            JSON.stringify(allGroupsAndTagsState)
-          );
-          allGroupsAndTagsStateCopy.tagsState = tagsStates;
-          onAllGroupsAndTagsStateChanged(allGroupsAndTagsStateCopy);
+          const allCheckboxStatesCopy: AllCheckboxStates = JSON.parse(JSON.stringify(allCheckboxStates));
+          allCheckboxStatesCopy.tagsCheckboxStates = tagsStates;
+          onCheckboxChanged(allCheckboxStatesCopy);
         }}
       />
       <FilterGroup
-        tagStates={allGroupsAndTagsState.rolesState}
+        checkboxStates={allCheckboxStates.rolesCheckboxStates}
         onStateChanged={(rolesStates) => {
-          const allGroupsAndTagsStateCopy: AllGroupsAndTagsState = JSON.parse(
-            JSON.stringify(allGroupsAndTagsState)
-          );
-          allGroupsAndTagsStateCopy.rolesState = rolesStates;
-          onAllGroupsAndTagsStateChanged(allGroupsAndTagsStateCopy);
+          const allCheckboxStatesCopy: AllCheckboxStates = JSON.parse(JSON.stringify(allCheckboxStates));
+          allCheckboxStatesCopy.rolesCheckboxStates = rolesStates;
+          onCheckboxChanged(allCheckboxStatesCopy);
         }}
       />
       <FilterGroup
-        tagStates={allGroupsAndTagsState.reqsState}
+        checkboxStates={allCheckboxStates.reqsCheckboxStates}
         onStateChanged={(reqsStates) => {
-          const allGroupsAndTagsStateCopy: AllGroupsAndTagsState = JSON.parse(
-            JSON.stringify(allGroupsAndTagsState)
-          );
-          allGroupsAndTagsStateCopy.reqsState = reqsStates;
-          onAllGroupsAndTagsStateChanged(allGroupsAndTagsStateCopy);
+          const allCheckboxStatesCopy: AllCheckboxStates = JSON.parse(JSON.stringify(allCheckboxStates));
+          allCheckboxStatesCopy.reqsCheckboxStates = reqsStates;
+          onCheckboxChanged(allCheckboxStatesCopy);
         }}
       />
     </section>

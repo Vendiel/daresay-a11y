@@ -3,17 +3,18 @@ import path from "path";
 import matter from "gray-matter";
 import remark from "remark";
 import html from "remark-html";
-import { AllPostsData } from "../components/models/postModels";
+import { AllMetaData } from "../components/models/postModels";
 
 const postsDirectory = path.join(process.cwd(), "posts");
 
+// Goes through all MD files to see which tags, reqs and roles that are defined
 export const getAllGroupsAndTags = () => {
   // Get file names under /posts
   const fileNames = fs.readdirSync(postsDirectory);
 
   const allTagsData = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
-    const id = fileName.replace(/\.md$/, "");
+    // const id = fileName.replace(/\.md$/, "");  // NEVER USED?
 
     // Read markdown file as string
     const fullPath = path.join(postsDirectory, fileName);
@@ -57,10 +58,13 @@ export const getAllGroupsAndTags = () => {
   };
 };
 
-export const getSortedPostsData = (): AllPostsData => {
+
+// Goes through all MD files to read the meta data
+export const getSortedPostsData = (): AllMetaData => {
   // Get file names under /posts
   const fileNames = fs.readdirSync(postsDirectory);
-  const allPostsData = fileNames.map((fileName) => {
+
+  const allMetaData = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, "");
 
@@ -71,14 +75,18 @@ export const getSortedPostsData = (): AllPostsData => {
     // Use gray-matter to parse the post metadata section
     const matterResult = matter(fileContents);
 
-    // Combine the data with the id
+    // Combine the meta data (matterResult.data is just the meta section) with the id
     return {
       id,
-      ...(matterResult.data as { title: string }),
+      ...(matterResult.data as {
+        title: string;
+        tags: string[];
+        reqs: string[];
+        roles: string[];
+      }),
     };
   });
-
-  return { posts: allPostsData }; // --> { posts: [ { id: "tlttl", title: "titttle"},  {...}]}
+  return { posts: allMetaData }; // --> { posts: [ { id: "name-of-file", title: "header" req: .. roles: .. tags: ..},  {...}]}
 };
 
 export function getAllPostIds() {
@@ -92,6 +100,7 @@ export function getAllPostIds() {
   });
 }
 
+// Goes through all MD files to read all content, incl meta data
 export async function getPostData(id: string) {
   const fullPath = path.join(postsDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");

@@ -1,32 +1,33 @@
 import Head from "next/head";
 import { getSortedPostsData, getAllGroupsAndTags } from "../../lib/posts";
 import { GetStaticProps } from "next";
-import styles from "./filterPage.module.css";
+import styles from "./checklistPage.module.css";
 import { FilterSidebar } from "../../components/filter/FilterSidebar/FilterSidebar";
 import { FilteredList } from "../../components/filter/FilteredList/FilteredList";
 import { AllGroupsAndTags } from "../../components/models/tagModels";
-import { AllPostsData } from "../../components/models/postModels";
+import { AllMetaData } from "../../components/models/postModels";
 import { useEffect, useState } from "react";
 
 interface Props {
-  allPostsData: AllPostsData;
+  allMetaData: AllMetaData;
   allGroupsAndTags: AllGroupsAndTags;
 }
 
-export interface TagState {
+export interface CheckboxState {
   tagName: string;
   checked: boolean;
 }
 
-export interface AllGroupsAndTagsState {
-  tagsState: Array<TagState>;
-  rolesState: Array<TagState>;
-  reqsState: Array<TagState>;
+export interface AllCheckboxStates {
+  tagsCheckboxStates: Array<CheckboxState>;
+  rolesCheckboxStates: Array<CheckboxState>;
+  reqsCheckboxStates: Array<CheckboxState>;
 }
 
-const getInitialState = (tags: Array<string>): Array<TagState> => {
+//Loops and adds checked=false for every tag item
+const getInitialState = (tags: Array<string>): Array<CheckboxState> => {
   return tags.map(
-    (item: string): TagState => {
+    (item: string): CheckboxState => {
       return {
         tagName: item,
         checked: false,
@@ -35,43 +36,40 @@ const getInitialState = (tags: Array<string>): Array<TagState> => {
   );
 };
 
-const getAllInitialStates = (
-  getAllGroupsAndTags: AllGroupsAndTags
-): AllGroupsAndTagsState => {
+//Sets initial value to false for every tag item
+const getAllInitialStates = (getAllGroupsAndTags: AllGroupsAndTags): AllCheckboxStates => {
   return {
-    tagsState: getInitialState(getAllGroupsAndTags.tags),
-    rolesState: getInitialState(getAllGroupsAndTags.roles),
-    reqsState: getInitialState(getAllGroupsAndTags.reqs),
+    tagsCheckboxStates: getInitialState(getAllGroupsAndTags.tags),
+    rolesCheckboxStates: getInitialState(getAllGroupsAndTags.roles),
+    reqsCheckboxStates: getInitialState(getAllGroupsAndTags.reqs),
   };
 };
 
 export const ChecklistPage = (props: Props) => {
-  const { allPostsData, allGroupsAndTags } = props;
+  const { allMetaData, allGroupsAndTags } = props;
+  // console.log(allMetaData);
+  // console.log(allGroupsAndTags);
 
-  const [allGroupsAndTagsState, setAllGroupsAndTagsState] = useState(
-    getAllInitialStates(allGroupsAndTags)
-  );
+  const [allCheckboxStates, setAllCheckboxStates] = useState(getAllInitialStates(allGroupsAndTags));
 
-  useEffect(() => {
-    console.log(allGroupsAndTagsState);
-  }, [allGroupsAndTagsState]);
+  useEffect(() => {}, [allCheckboxStates]);
+
+  // console.log(allCheckboxStates);
 
   return (
     <>
       <Head>
-        <title>A specific tag indeeeeeed</title>
+        <title>The accessibility checklist</title>
       </Head>
       <div className={"wrapper"}>
         <div className={styles.container}>
           <FilterSidebar
-            allGroupsAndTagsState={allGroupsAndTagsState}
-            onAllGroupsAndTagsStateChanged={(
-              newAllGroupsAndTags: AllGroupsAndTagsState
-            ) => {
-              setAllGroupsAndTagsState(newAllGroupsAndTags);
+            allCheckboxStates={allCheckboxStates}
+            onCheckboxChanged={(newAllGroupsAndTags: AllCheckboxStates) => {
+              setAllCheckboxStates(newAllGroupsAndTags);
             }}
           />
-          <FilteredList allPostsData={allPostsData} />
+          <FilteredList allMetaData={allMetaData} filterState={allCheckboxStates} />
         </div>
       </div>
     </>
@@ -81,12 +79,11 @@ export const ChecklistPage = (props: Props) => {
 export default ChecklistPage;
 
 export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData: AllPostsData = getSortedPostsData();
+  const allMetaData: AllMetaData = getSortedPostsData();
   const allGroupsAndTags = getAllGroupsAndTags();
-  console.log(allGroupsAndTags);
   return {
     props: {
-      allPostsData,
+      allMetaData,
       allGroupsAndTags,
     },
   };

@@ -7,9 +7,13 @@
   align-items: center;
 }
 
+.mainHeader a {
+  line-height: 0;
+  margin: 0 8px 0 0;
+}
+
 .mainHeader img {
   max-width: 120px;
-  padding: 0 8px 0 0;
 }
 
 .mainHeader span {

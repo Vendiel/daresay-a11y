@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { ColorTheme, RelatedCard } from "../../components/general/RelatedCard/RelatedCard";
+import { List } from "../../components/general/List/List";
 
 export default function AboutLawPage() {
   return (
@@ -37,6 +38,7 @@ export default function AboutLawPage() {
             The goal of the directive is to ensure that all public sector organizations are accessible for
             citizens with disabilities in the EU. The Directive in short:
           </p>
+
           <ul>
             <li>covers websites and apps of public sector organizations</li>
             <li>refers to specific standards to make websites and mobile apps more accessible</li>

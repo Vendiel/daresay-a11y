@@ -16,6 +16,6 @@
   display: inline-block;
   font-size: 3rem;
   background-color: var(--color-primary-10);
-  padding: var(--spacing-2x);
+  padding: var(--spacing-3x) var(--spacing-2x);
   border-radius: 8px;
 }

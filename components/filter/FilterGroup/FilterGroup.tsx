@@ -1,38 +1,37 @@
-import { TagState } from "../../../pages/checklist";
+import { CheckboxState } from "../../../pages/checklist";
 import { FilterCheckbox } from "../FilterCheckbox/FilterCheckbox";
 import styles from "./FilterGroup.module.css";
 
 interface Props {
-  tagStates: Array<TagState>;
-  onStateChanged: (tagStates: Array<TagState>) => void;
+  checkboxStates: Array<CheckboxState>;
+  onStateChanged: (checkboxStates: Array<CheckboxState>) => void;
 }
 
 export const FilterGroup = (props: Props) => {
-  const { tagStates, onStateChanged } = props;
+  const { checkboxStates, onStateChanged } = props;
 
   return (
     <>
       <fieldset className={styles.card}>
         <legend>Kategorier</legend>
-        {tagStates.map((item: TagState) => {
-          return (
-            <ul>
+        <ul>
+          {checkboxStates.map((item: CheckboxState) => {
+            return (
               <FilterCheckbox
                 item={item.tagName}
                 checked={item.checked}
                 onChange={() => {
-                  const resultIndex = tagStates.findIndex((currentItem) => {
+                  const resultIndex = checkboxStates.findIndex((currentItem) => {
                     return currentItem.tagName === item.tagName;
                   });
-                  const tagStateCopy = JSON.parse(JSON.stringify(tagStates));
-                  tagStateCopy[resultIndex].checked = !tagStateCopy[resultIndex]
-                    .checked; // Toggle value by using ! operator.
-                  onStateChanged(tagStateCopy); // Prata uppåt med föräldern.. :)
+                  const checkboxStateCopy = JSON.parse(JSON.stringify(checkboxStates));
+                  checkboxStateCopy[resultIndex].checked = !checkboxStateCopy[resultIndex].checked; // Toggle value by using ! operator.
+                  onStateChanged(checkboxStateCopy); // Prata uppåt med föräldern.. :)
                 }}
               />
-            </ul>
-          );
-        })}
+            );
+          })}
+        </ul>
       </fieldset>
     </>
   );

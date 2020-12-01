@@ -1,0 +1,18 @@
+a.linkbutton {
+  display: inline-block;
+  background-color: var(--color-primary-80);
+  color: var(--color-white);
+  padding: var(--spacing-2x) var(--spacing-3x);
+  border-radius: 32px;
+  text-decoration: none;
+}
+
+a.linkbutton:visited {
+  background-color: var(--color-primary-80);
+}
+a.linkbutton:hover {
+  background-color: #0045a5;
+}
+a.linkbutton:active {
+  background-color: #0045a5;
+}

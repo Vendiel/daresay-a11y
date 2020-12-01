@@ -36,4 +36,7 @@
   --color-card3-dark: #0a49a0;
   --color-card4-dark: #065f7a;
   --color-card5-dark: #181d25;
+
+  /* focus */
+  --color-focus-general: #e06500;
 }

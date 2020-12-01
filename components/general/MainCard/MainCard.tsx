@@ -6,15 +6,14 @@ interface Props {
   icon: string;
   header: string;
   content: React.ReactElement;
+  bottomMargin?: boolean;
 }
 
 export const MainCard = (props: Props) => {
-  const { icon, header, content } = props;
+  const { icon, header, content, bottomMargin = true } = props;
 
   return (
-    <section
-      className={classNames(styles.card, "flex-row", "margin-bottom-6x")}
-    >
+    <section className={classNames(styles.card, "flex-row", bottomMargin && "margin-bottom-6x")}>
       <div className={styles.cardicon}>
         <span aria-hidden="true">{icon}</span>
       </div>
