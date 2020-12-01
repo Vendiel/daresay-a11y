@@ -18,8 +18,6 @@ interface Props {
 
 export const Post = (props: Props) => {
   const { postData } = props;
-  // postData.reqs.forEach((req) => console.log(req));
-  // console.log(postData.reqs);
 
   return (
     <>
@@ -28,7 +26,7 @@ export const Post = (props: Props) => {
       </Head>
       <div className={"wrapper"}>
         <article className={styles.article}>
-          <h1>{postData.title}</h1>
+          <h1 className={styles.header}>{postData.title}</h1>
           <ul className={styles.tagGroup}>
             {postData.tags.map((tag) => (
               <li key={tag}>

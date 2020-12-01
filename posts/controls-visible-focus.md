@@ -21,7 +21,7 @@ roles:
 sidebar_label: Controls visibility
 ---
 
-### Description
+## Description
 
 Visible focus styles help people determine which interactive element has keyboard focus when tabbing through the UI. Important for people with low vision, motor disabilities and attention disorders.
 

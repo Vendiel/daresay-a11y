@@ -13,11 +13,11 @@ roles:
 sidebar_label: Only audio
 ---
 
-### Description
+## Description
 
 Transcripts allow people who cannot hear to still understand the audio content. It also allows people to digest audio content at a pace that is comfortable to them. Make sure to include dialogue and all other meaningful sounds.
 
-Example:
+## Examples
 
 - A podcast
 - MP3-files

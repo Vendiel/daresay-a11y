@@ -20,11 +20,11 @@ roles:
 sidebar_label: Relevant Labels
 ---
 
-### Description
+## Description
 
 All controls must have a label so that all users - independent if they using assistive technology or not - can identify the purpose of the control and what type of information that she/is expected to enter. Please note that the term label is not limited to the label element in HTML.
 
-### Possible Solutions
+## Possible solutions
 
 - The preferred solution is to use a visible label element and connect it to the control. By marking it up correctly with "for", the tap area gets bigger since the label will also be included.
 - If there's a single text field with an adjacent button, like with a search field and its button, the label on the button is sufficent as a label for the text field - no other visible label is needed. However, when there's no proper label associated with the control you need to add additional meaning for people using screen readers, using either title, aria-label or aria-labelledby.

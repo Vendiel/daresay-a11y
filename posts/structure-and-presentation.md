@@ -10,6 +10,6 @@ roles:
 sidebar_label: Structure and Presentation
 ---
 
-### Description
+## Description
 
 Structural features in HTML, presentational features in CSS.

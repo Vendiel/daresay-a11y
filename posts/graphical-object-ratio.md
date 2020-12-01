@@ -11,18 +11,18 @@ roles:
 sidebar_label: Graphical objects ratio
 ---
 
-### Description
+## Description
 
 Not every graphical object needs to have contrast with its surroundings, only those parts that are reqsuired for a user to understand what the graphic is conveying. Identify them and ensure that there's enough contrast.
 
-### Examples
+## Examples
 
 - For simple graphics such as single-color icons the entire image is a graphical object and need to fulfil the reqsuirement.
 - For more complex graphics it's every line and shape of the image that is needed to make sense of what it's visualing, like the different lines in a graph.
 
 See examples: https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html
 
-### Exceptions
+## Exceptions
 
 1. Graphics that are only used for aesthetic purposes.
 2. If the information in the image is available in another form, like in a Long description.

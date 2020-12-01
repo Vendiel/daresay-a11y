@@ -11,11 +11,11 @@ roles:
 sidebar_label: Success States
 ---
 
-### Description
+## Description
 
 Success states must include a non-color way to be identified, like text or an icon.
 
-### Examples
+## Examples
 
 - Entered a correct value into a field
 - Database entry is updated successfully

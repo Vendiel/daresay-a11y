@@ -12,6 +12,6 @@ roles:
 sidebar_label: Video as test
 ---
 
-### Description
+## Description
 
 For pre-recorded video where the information is part of a test or exercise that would be invalid if presented in text so only a descriptive label is needed so the user can identify the video.

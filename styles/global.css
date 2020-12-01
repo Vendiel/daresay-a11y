@@ -176,6 +176,12 @@ ul li::before {
   color: var(--color-card4-dark);
 }
 
+/* Special stuff since MD-files are putting p inside li when there are a second list on page... */
+
+li > p {
+  display: inline;
+}
+
 /* images */
 
 main img {

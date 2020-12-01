@@ -10,7 +10,7 @@ roles:
 sidebar_label: Aria-describedby
 ---
 
-### Description
+## Description
 
 Make sure that the accessible name for the control will be associated with the label and not the hint text - use aria-describedby to associate the hint text with the control.
 

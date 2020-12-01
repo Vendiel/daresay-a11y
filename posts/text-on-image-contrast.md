@@ -11,10 +11,10 @@ roles:
 sidebar_label: Text on Image Contrast
 ---
 
-### Description
+## Description
 
 This also includes text that are part of charts, infographics, diagrams, maps, etc.
 
-### Exceptions
+## Exceptions
 
 Logo, brand names, text part of photograph (street signs etc) are not included in the contrast reqsuirement.

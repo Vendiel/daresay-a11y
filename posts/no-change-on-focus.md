@@ -20,16 +20,16 @@ roles:
 sidebar_label: Controls context
 ---
 
-### Description
+## Description
 
 When a control receives focus it shall not result in a substantial change that disorients the users. All changes of context would be triggered only by a specific action on the part of the user.
 
-### Examples
+## Examples
 
 - A form that’s automatically submitted when the submit button receives focus.
 - A new window is launched when a link receives focus.
 - Focus gets automatically moved to another control.
 
-### Additional Information
+## Additional Information
 
 Showing additional things on hover, like a tooltip or a drop down menu is okay. These things are not changing the context (moving focus away to another place).

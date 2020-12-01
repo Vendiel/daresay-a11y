@@ -21,7 +21,7 @@ roles:
 sidebar_label: Stopping or undoing action
 ---
 
-### Description
+## Description
 
 The action on the up-event shall only happen if the finger or pointer is released within the boundary of the control that was activated. If the user moves the finger or pointer away from the control before releasing, the action shall be cancelled.
 

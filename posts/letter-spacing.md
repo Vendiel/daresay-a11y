@@ -11,6 +11,6 @@ roles:
 sidebar_label: Letter Spacing
 ---
 
-### Description
+## Description
 
 Adding spaces will make the words difficult for screen readers and other assistive technology to read out aloud.

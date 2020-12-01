@@ -12,7 +12,7 @@ roles:
 sidebar_label: Avoid sticky regions
 ---
 
-### Description
+## Description
 
 This is a recommendation.
 

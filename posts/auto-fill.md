@@ -10,7 +10,7 @@ roles:
 sidebar_label: Auto-fill
 ---
 
-### Description
+## Description
 
 By adding what purpose different controls have, information about the user (name, address, phone number, etc) can be automatically filled in by auto-fill in browser or additional helpful elements can be added automatically to make it easier for users to understand the purpose of the field (like a phone icon for a phone number field).
 

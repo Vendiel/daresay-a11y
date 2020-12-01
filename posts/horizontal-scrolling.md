@@ -12,6 +12,6 @@ roles:
 sidebar_label: Horizontal Scrolling
 ---
 
-### Description
+## Description
 
 Depending on the layout of the label and control it might be necessary to change the layout so they fit the current viewport / zoom level.

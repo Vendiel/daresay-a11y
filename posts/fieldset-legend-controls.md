@@ -11,12 +11,12 @@ roles:
 sidebar_label: Fieldset-legend
 ---
 
-### Description
+## Description
 
 A group of controls that are logically related, like for instance controls for entering a users's adress, can be grouped with fieldset-legend.
 
 For those occasions where fieldset-legend is not an option, then consider grouping the controls in a div with role=""group"" together with aria-labeledby.
 
-### Additional Information
+## Additional Information
 
 Avoid nesting fieldsets unnecessarily, as this can lead to confusion.

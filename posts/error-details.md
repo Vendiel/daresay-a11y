@@ -11,18 +11,18 @@ roles:
 sidebar_label: Error Details
 ---
 
-### Description
+## Description
 
 Describe the nature of the problem, don’t be generic. Provide simple and detailed instructions on how they can solve the problem.
 
 If the user must follow certain format or values, then the text should describe this, suggest the allowed value that is most similar to the one entered or give a descriptive example.
 
-### Examples
+## Examples
 
 - “Invalid email adress, enter example@yourdomain.com” is specific and offers an example of the format that’s needed.
 - User has misspelled a city name. The error message includes a list of city names that the user may have meant.
 
-### Exception
+## Exception
 
 1. If it would jeopardise the security of the site.
 2. If it would jeopardise the purpose of the content.

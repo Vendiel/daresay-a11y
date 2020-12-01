@@ -12,7 +12,7 @@ roles:
 sidebar_label: Text Styles
 ---
 
-### Description
+## Description
 
 It's important that people can override different text styles to improve their reading experience, without getting problems like overlap with other elements, text going outside of viewport or getting cut off (i.e. the container of the text must adapt in height/width with the text).
 
@@ -21,7 +21,7 @@ It's important that people can override different text styles to improve their r
 - Letter spacing to at least 0.12 times the font size;
 - Word spacing to at least 0.16 times the font size.
 
-### Exceptions
+## Exceptions
 
 1. Video captions that are embedded in the video
 2. Images of text

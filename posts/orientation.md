@@ -11,7 +11,7 @@ roles:
 sidebar_label: Orientation
 ---
 
-### Description
+## Description
 
 All users don’t have the possibility to turn their device. Some users have to choose a mode (either portrait or landscape) and always have it in that mode, for example a wheelchair user that mount their mobile devices in a specific orientation.
 
@@ -27,6 +27,6 @@ Make sure all content is presented regardless of screen orientation.
 
 ![A vertical and a horizontal screen](https://github.com/daresaydigital/a11ychecklist/blob/master/static/img/orientation.png?raw=true)
 
-### Exceptions
+## Exceptions
 
 When the orientation of the device is absolutely necessary. For example a music app using an on-screen piano that needs landscape orientation to provide large enough tap areas for the piano keys.

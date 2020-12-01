@@ -12,6 +12,6 @@ roles:
 sidebar_label: Grouping Options In Lists and Dropdowns
 ---
 
-### Description
+## Description
 
 Don't group options with "dummy" list entries - it's important that the groups can be semantically identified for people using assitive technology.

@@ -10,6 +10,6 @@ roles:
 sidebar_label: Default Language
 ---
 
-### Description
+## Description
 
 Use the lang attribute so that assistive technologies such as screen readers can load the correct pronunciation rules, browsers can render text correctly, etc.

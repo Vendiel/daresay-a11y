@@ -10,7 +10,7 @@ roles:
 sidebar_label: Markup for Data Relationship
 ---
 
-### Description
+## Description
 
 Use table headers appropriately (data cells are associated with their headers).
 

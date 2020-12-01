@@ -32,22 +32,19 @@ export const FilteredList = (props: Props) => {
   }, [filterState]); //useEffect lyssnar på filterState
 
   let filteredPosts = [];
-  //Vill sätta så om visiblePosts är tom så ska alla visas, dvs  allMetaData.posts...
+  //Om visiblePosts är tom så ska alla visas, dvs allMetaData.posts...
   if (visiblePosts.length == 0) {
-    console.log("visible posts is empty");
     filteredPosts = [...allMetaData.posts];
     console.log(filteredPosts);
   } else {
-    console.log("visible posts is NOT empty");
     filteredPosts = [...visiblePosts];
     console.log(filteredPosts);
   }
 
   return (
-    // <section className={styles.list}>
     <section>
-      <h2>All checklist items</h2>
-      <span>{filteredPosts.length} items</span>
+      <h1 className={styles.header}>All checklist items</h1>
+      <span className={styles.number}>{filteredPosts.length} items shown</span>
 
       <ul className={styles.checklist}>
         {filteredPosts.map((item: MetaData) => {
@@ -57,22 +54,3 @@ export const FilteredList = (props: Props) => {
     </section>
   );
 };
-
-// <ul>
-//   {checkboxStates.map((item: CheckboxState) => {
-//     return (
-//       <FilterCheckbox
-//         item={item.tagName}
-//         checked={item.checked}
-//         onChange={() => {
-//           const resultIndex = checkboxStates.findIndex((currentItem) => {
-//             return currentItem.tagName === item.tagName;
-//           });
-//           const checkboxStateCopy = JSON.parse(JSON.stringify(checkboxStates));
-//           checkboxStateCopy[resultIndex].checked = !checkboxStateCopy[resultIndex].checked; // Toggle value by using ! operator.
-//           onStateChanged(checkboxStateCopy); // Prata uppåt med föräldern.. :)
-//         }}
-//       />
-//     );
-//   })}
-// </ul>;

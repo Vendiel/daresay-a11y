@@ -11,7 +11,7 @@ roles:
 sidebar_label: Error Descriptions
 ---
 
-### Description
+## Description
 
 A test description of the error must be provided. It's not sufficient simply indicate that a field has an error by putting an asterisk on its label or turning the label red.
 

@@ -11,6 +11,6 @@ roles:
 sidebar_label: Image width adjusted to viewport and zoom levels
 ---
 
-### Description
+## Description
 
 This is an advised technique. Make sure that the whole image is presented without the need of horistonal scrolling (at a width equally to 320 CSS pixels).

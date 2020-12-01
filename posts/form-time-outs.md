@@ -11,7 +11,7 @@ roles:
 sidebar_label: Form Time-outs
 ---
 
-### Description
+## Description
 
 Not everyone has the ability to complete a task under a certain time limit. People with different types of disabilities, such as blindness, low vision, cognitive limitations, physical disabilities, usually need more time to complete the task.
 
@@ -21,13 +21,13 @@ To make it possible for everyone to use the service, any time limit for forms mu
 - Adjusted - make it possible to customise the length of the time limit before it beings, over a range of at least ten times the default setting (next best option).
 - Extended - make it possible for the user to reqsuest more time before the time limit occurs (least best option). The user must be given at least 20 seconds to extend it and it should be done with a simple action, such as pressing the space bar. It must be possible to do this at least ten times.
 
-### Examples
+## Examples
 
 - The user gets warned that the time limit for a purchase flow is ending soon and gets the possibility to extend it by clicking an “Extend time limit” button.
 - There’s a checkbox before the form that will give the user 15 minutes extra to complete the form.
 - It’s possible to remove the time limit for completing complex forms by checking a checkbox.
 
-### Exceptions
+## Exceptions
 
 1. The time limit is longer than 20 hours
 2. The time limit is due to real-time events, like bidding in an online auction where additional time would be unfair.

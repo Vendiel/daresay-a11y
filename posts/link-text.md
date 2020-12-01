@@ -12,11 +12,11 @@ roles:
 sidebar_label: Link Text
 ---
 
-### Description
+## Description
 
 Some assistive technology can list all links on a page. Giving all links clear and meaningful texts will help these users to choose and interact with your content more easily.
 
-### Best practice
+## Best practice
 
 - Links with the same destination have consistent text.
 - Links with different destinations should have different link text.
@@ -31,6 +31,6 @@ For those situations where you can’t provide a clear and meaningful link on it
 
 If it’s not possible to provide the meaning with the link text or it’s context, you can use ARIA technique (label or labelledby) to add additional information, or you can use CSS to hide a part of the link text.
 
-### Exceptions
+## Exceptions
 
 1. The purpose of the link cannot be determined from the information on the page.

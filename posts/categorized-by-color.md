@@ -11,11 +11,11 @@ roles:
 sidebar_label: Categorized by color
 ---
 
-### Description
+## Description
 
 Content (or different parts of content) that are categorized by use of color that conveys meaningful information needs additional cues like text or icons so people can differentiate between them.
 
-### Examples
+## Examples
 
 - Schedule with different tracks where each track has a specific color.
 - Information messages in to top of the page with different levels of importance where each level has its own color.

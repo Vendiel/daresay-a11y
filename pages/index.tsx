@@ -4,14 +4,7 @@ import { LinkButton } from "../components/general/LinkButton/LinkButton";
 import { MainCard } from "../components/general/MainCard/MainCard";
 import { ColorTheme, RelatedCard } from "../components/general/RelatedCard/RelatedCard";
 
-export default function Home({
-  allPostsData,
-}: {
-  allPostsData: {
-    title: string;
-    id: string;
-  }[];
-}) {
+export default function Home() {
   return (
     <>
       <Head>

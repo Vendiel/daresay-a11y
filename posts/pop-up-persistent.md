@@ -14,7 +14,7 @@ roles:
 sidebar_label: Pop-up content
 ---
 
-### Description
+## Description
 
 The content of the pop-up must remain visible until:
 
@@ -24,11 +24,11 @@ The content of the pop-up must remain visible until:
 
 This is so that user will have enough time to take in/read the pop-up content.
 
-### Examples
+## Examples
 
 Examples of pop-up content: custom tooltips, sub-menus (drop down menus), nonmodal popovers.
 
-### Exceptions
+## Exceptions
 
 1. Modal dialogues
 2. Pop-up content styled by the browser such as built-in tooltips.

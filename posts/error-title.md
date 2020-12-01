@@ -11,6 +11,6 @@ roles:
 sidebar_label: Indicate Errors In Titles
 ---
 
-### Description
+## Description
 
 So it will be clear to users with screen readers that the submit failed and they need to make corrections to successfully submit a form.

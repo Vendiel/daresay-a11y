@@ -11,10 +11,6 @@ roles:
 sidebar_label: Alternative Texts for Interactive Image Maps
 ---
 
-### Description
-
-...
-
-### Additional Information
+## Additional Information
 
 See: https://www.w3.org/WAI/tutorials/images/imagemap/

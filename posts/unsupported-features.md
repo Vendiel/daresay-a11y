@@ -10,6 +10,6 @@ roles:
 sidebar_label: Unsupported Features
 ---
 
-### Description
+## Description
 
 It’s important not to use new, unsupported features since assistive technology might not have support for it, making it impossible to use.

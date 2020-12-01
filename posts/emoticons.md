@@ -10,7 +10,7 @@ roles:
 sidebar_label: Emoticons
 ---
 
-### Description
+## Description
 
 Emoticon: :) will be read ""colon right parenthesis"". Use abbr for giving more context for it.
 

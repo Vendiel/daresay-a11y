@@ -12,10 +12,10 @@ roles:
 sidebar_label: Video width
 ---
 
-### Description
+## Description
 
 Make sure that the whole video or image is presented without the need of horistonal scrolling (at a width equally to 320 CSS pixels).
 
-### Additional information
+## Additional information
 
 This is only an adviced technique.

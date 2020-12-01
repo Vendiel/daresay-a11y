@@ -11,7 +11,7 @@ roles:
 sidebar_label:
 ---
 
-### Description
+## Description
 
 This can become an issue when using plug-ins or embedded applications on the page, as well as modal dialogs, form controls as a calendar picker or autocomplete widgets. The user must be able to leave the component with standard navigation such as arrow or tab keys (or other standard exit method).
 

@@ -11,7 +11,7 @@ roles:
 sidebar_label: Auto-updating content
 ---
 
-### Description
+## Description
 
 Content that start auto-updating automatically in parallell with other content can be a barrier for anyone who has trouble reading text quickly as well as anyone who has trouble tracking moving objects. It can also cause problems for screen readers.
 
@@ -19,12 +19,12 @@ If content starts auto-updating automatically there must be a mechanism to pause
 
 Examples of auto-updating content are automatically updated weather information, stock price updates, auto-advancing presentations, chat messages and twitter feeds, displaying new participants to an online call.
 
-### Exceptions
+## Exceptions
 
 1. If the auto-updating content is the only thing shown on the page, then it doesn’t need any mechanism to pause, stop, hide or control the freqsuency - it’s only needed when it’s shown in parallell with other content.
 2. If the auto-updating is part of an activity that’s essential.
 
-### Additional information
+## Additional information
 
 Auto-updating content is content that updates or disappears based on a preset time interval.
 

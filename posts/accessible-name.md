@@ -10,7 +10,6 @@ tags:
   - Drop downs
   - File select fields
   - Date pickers
-  - Buttons
   - Tabs
   - Slider
 reqs:
@@ -33,6 +32,8 @@ Preferably the visible label and accessible name should match 1:1. In those situ
 - Visual text: "Search". Accessible name: "Search for a value".
 
 ## Additional Information
+
+<!---->
 
 - Additional context may be more appropriately included through use of aria-describedby. This has the significant benefit of improving context for some users of assistive technology without altering the accessible name.
 

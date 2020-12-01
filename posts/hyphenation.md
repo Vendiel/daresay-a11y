@@ -11,6 +11,6 @@ roles:
 sidebar_label: Hyphenation
 ---
 
-### Description
+## Description
 
 It's important that long words wraps so that they still are readable on devices with limited width.

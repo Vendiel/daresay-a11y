@@ -11,11 +11,11 @@ roles:
 sidebar_label: Semantic Markup
 ---
 
-### Description
+## Description
 
 Use elements according to their meaning, not because of the way they appear visually. By using the semantic appropriate elements blind/low-vision people using screen readers will have an easier time understanding how to navigate and use the UI.
 
-### Examples
+## Examples
 
 - Use h1, h2, h3, etc for headings.
 - Use a element for links.

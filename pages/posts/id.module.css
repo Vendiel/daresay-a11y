@@ -4,14 +4,24 @@
   border-radius: var(--spacing-4x);
 }
 
+.header {
+  margin-bottom: var(--spacing-3x);
+}
+
 .tagGroup {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 .tagGroup li {
   margin: 0 var(--spacing-2x) var(--spacing-base) 0;
+}
+
+.tagGroup li:before {
+  content: none;
 }
 
 .backToHome {

@@ -1,5 +1,5 @@
 ---
-id: componentsfocus
+id: components-focus
 title: Make sure that components receives focus in a way that makes sense
 tags:
   - Structure
@@ -12,7 +12,7 @@ roles:
 sidebar_label:
 ---
 
-### Description
+## Description
 
 It’s important that the tab (keyboard focus) order is set so it matches the expected reading order so that keyboard users don’t get disoriented when tabbing through the UI.
 

@@ -10,11 +10,11 @@ roles:
 sidebar_label: Scalable Text
 ---
 
-### Description
+## Description
 
 Make sure that the font is scalable by using percentage, em or rem.
 
-### Exceptions
+## Exceptions
 
 1. Images of text
 2. Captions (video)

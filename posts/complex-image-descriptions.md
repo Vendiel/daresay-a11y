@@ -11,7 +11,7 @@ roles:
 sidebar_label: Descriptions for Complex Visuals
 ---
 
-### Description
+## Description
 
 Can be done in different ways.
 
@@ -19,6 +19,6 @@ Can be done in different ways.
 - Create a separate page with the information that is linked from an adjacent image text.
 - aria-describedby can be used for text-only information.
 
-### Additional Information
+## Additional Information
 
 See: https://www.w3.org/WAI/tutorials/images/complex/

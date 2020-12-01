@@ -10,7 +10,7 @@ roles:
 sidebar_label: Empty Alt Attribute for Decorative Images
 ---
 
-### Description
+## Description
 
 Decorative images do not communicate information that is reqsuired to understand the website's content. Images can be deemed decorative if the information is already described in adjacent text or the images is added to make the site more visually attractive. Also valid for decorative images that are part of a text link.
 

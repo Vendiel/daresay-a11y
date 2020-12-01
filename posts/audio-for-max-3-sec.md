@@ -12,7 +12,7 @@ roles:
 sidebar_label: Audio for max 3 sec
 ---
 
-### Description
+## Description
 
 Audio interfers with screen readers and unexpected audio can be distracting and distruptive for people with cognitive disabilities.
 

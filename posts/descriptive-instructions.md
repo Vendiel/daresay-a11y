@@ -1,5 +1,5 @@
 ---
-id: descriptive-instrucions
+id: descriptive-instructions
 title: Make sure available instructions that informs users of how to operate content/controls include several sensory characteristics
 tags:
   - Text
@@ -10,7 +10,7 @@ roles:
 sidebar_label: Descriptive Instructions
 ---
 
-### Description
+## Description
 
 Write the copy so all users can make sense of it by using more than one sensory characteristics (shape, color, size, visual location, orientation, sound).
 

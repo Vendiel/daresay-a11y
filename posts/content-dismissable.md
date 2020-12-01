@@ -20,11 +20,11 @@ For people using different magnifying tools (where the popover for instance coul
 
 Recommended solutions is to make it possible to close it by pressing the Escape key on the keyboard and by clicking at the same control that opened it.
 
-### Examples
+## Examples
 
 Examples of pop-up content: custom tooltips, sub-menus (drop down menus), nonmodal popovers.
 
-### Exceptions
+## Exceptions
 
 1. Modal dialogues
 2. Pop-up content styled by the browser such as built-in tooltips.

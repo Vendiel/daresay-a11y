@@ -11,6 +11,6 @@ roles:
 sidebar_label: Use Summary for Complex Tables
 ---
 
-### Description
+## Description
 
 Use the summary attribute to give a brief explanation of how the data has been organized or how to navigate the table for people using screen readers. This summary information is not displayed visually.

@@ -10,10 +10,10 @@ roles:
 sidebar_label:
 ---
 
-### Description
+## Description
 
 Some users aren’t able to operate via device sensors. Their device may be mounted on a wheelchair or theymay suffer of motor impairments. Make sure the function can be done by other means such as buttons, links or other controls.
 
-### Exceptions
+## Exceptions
 
 1. When the motion is essential for the function or not using motions or gestures would invalidate the activity. Like pedometer that relies on device motion to count steps.

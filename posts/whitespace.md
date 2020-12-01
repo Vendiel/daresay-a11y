@@ -11,21 +11,21 @@ roles:
 sidebar_label: Whitespace
 ---
 
-### Description
+## Description
 
 You should change the styling properties instead of using whitespace characters for layout purposes. Whitespace characters can cause a lot of trouble for screen readers as they can change the meaning of the word or how it is pronounced.
 
 When blank characters are inserted to control letter spacing within a word, they may change the interpretation of the word or cause it not to be programmatically recognized as a single word
 
-### What to do
+## What to do
 
 - Avoid using whitespace characters (i.e blanks/spaces and tabs etc.)
 
-### Example
+## Example
 
 This example has white spaces within a word to space out the letters in a heading. Screen readers may read each letter individually instead of the word “Welcome”.
 
-#### Code
+### Code
 
 ```html
 <h1>W e l c o m e</h1>

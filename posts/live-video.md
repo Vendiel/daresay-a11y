@@ -13,15 +13,15 @@ roles:
 sidebar_label: Live video
 ---
 
-### Description
+## Description
 
 Captions enable people who are deaf or hard of hearing to watch real-time presentations.
 
-Example:
+## Examples
 
 - Live audio in combination with a presentation, like an online seminar/webbinar.
 - Evening news shown online.
 
-### Additional information
+## Additional information
 
 Captions include more information than regular subtitles like identifying who is speacking and notate sound effects. Closed captions are recommended."

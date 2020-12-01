@@ -10,11 +10,11 @@ roles:
 sidebar_label: Hint Texts
 ---
 
-### Description
+## Description
 
 Like date format or password reqsuirements. Don’t make it too long and verbose. Given enough information so the user can accomplish the task without confusion and need to navigate through the page once more to correct errors.
 
-### Suggestions
+## Suggestions
 
 - If short instruction, then it could be added in label: "Date (dd-mm-yy)".
 - If longer, put as a seperate text between label and control.

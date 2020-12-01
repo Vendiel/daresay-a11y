@@ -11,7 +11,7 @@ roles:
 sidebar_label: Moving content
 ---
 
-### Description
+## Description
 
 Content that starts moving or blinking automatically in parallell with other content can be a severe distraction for some users, particularly for those with attention deficit orders where the content that's moving or blinking will make it difficult for them to concentrate on other parts of the page. It will also cause problems for users that has trouble reading text quickly or trouble tracking moving objects.
 
@@ -19,12 +19,12 @@ The recommendation is to avoid moving, blinking, scrolling content if possible, 
 
 Example of moving, blinking or scrolling content are carousels, video, background video, synchronised media presentations, real-time games, scrolling stock tickers or news banner, animated “On sale" image.
 
-### Exceptions
+## Exceptions
 
 1. If the content that is moving/blinking/scrolling is the only thing shown on the page, then it doesn't need any mechanism for pause/stop/hide - it’s only needed when the moving/blinking/scrolling content is shown in parallell with other content. For instance, a full-page ad.
 2. If the movement, blinking, scrolling is part of an activity that is essential. For instance, an animation that is there to inform users that something is loading and that's why no interaction can take place (if there was no animation the users might think that the content was frozen or broken).
 
-### Additional information
+## Additional information
 
 Make sure that any blinking content isn’t actually flashing. See guideline about flashing content.
 

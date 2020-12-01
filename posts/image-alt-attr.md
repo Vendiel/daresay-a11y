@@ -11,7 +11,7 @@ roles:
 sidebar_label: Alt Attributes for Informative Images
 ---
 
-### Description
+## Description
 
 Alt attributes (alt text) give a description of an image for people who may not be able to view them. When an alt attribute isn't present on an image, a screen reader may announce the image's file name and path instead, failing to communicate the image’s content.
 

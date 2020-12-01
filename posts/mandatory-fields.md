@@ -1,6 +1,6 @@
 ---
 id: mandatory-fields
-title: Mark mandatory fields with aria-reqsuired=“true”
+title: Mark mandatory fields with aria-required=“true”
 tags:
   - Forms
 reqs:
@@ -10,6 +10,6 @@ roles:
 sidebar_label: Mandatory Fields
 ---
 
-### Description
+## Description
 
 This is recommended even if there are visual ways to see what fields are mandatory.

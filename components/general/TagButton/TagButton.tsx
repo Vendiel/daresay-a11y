@@ -10,8 +10,11 @@ export const TagButton = (props: Props) => {
   const { tagName, url = "/checklist" } = props;
 
   return (
-    <Link href={url}>
-      <a className={styles.tagButton}>{tagName}</a>
-    </Link>
+    // <Link href={url}>
+    //   <a className={styles.tagButton}>{tagName}</a>
+    // </Link>
+
+    // Should be done as a button later on...
+    <span className={styles.tagButton}>{tagName}</span>
   );
 };

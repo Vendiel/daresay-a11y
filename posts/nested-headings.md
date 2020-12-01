@@ -13,6 +13,6 @@ roles:
 sidebar_label: Nested Headings
 ---
 
-### Description
+## Description
 
 Provide hierarchically logical heading markup for the content (h1, h2, h3 etc). By using headings in a proper way, people using assistive technology like screen readers can easily jump to a specific section of the page.

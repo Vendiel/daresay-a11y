@@ -11,7 +11,7 @@ roles:
 sidebar_label: Content time limit
 ---
 
-### Description
+## Description
 
 Not everyone has the ability to complete a task or read content under a certain time limit. People with different types of disabilities, such as blindness, low vision, cognitive limitations, physical disabilities, usually need more time to complete the task.
 
@@ -23,7 +23,7 @@ To make it possible for everyone to comprehend and use the service, any time lim
 
 This applies to full or partial updates of content, like a page which gets refreshed/timed out after a certain time limit or a certain part of the page has content that is animated, moving or scrolling like rotating headlines, text that's scrolling across the screen, an animation showing the users how to tie a shoe, etc.
 
-### Suggested solutions
+## Suggested solutions
 
 - The user gets the possibility to extend the session time before getting automatically logged out due to inactivity. If user does not respond s/he gets logged out.
 - There’s a preference where users can change the default session time before getting logged out automatically due to inactivity.
@@ -31,7 +31,7 @@ This applies to full or partial updates of content, like a page which gets refre
 - There’s a pause button for news headlines that update every minute.
 - There’s a pause functionality (like pressing space or escape key) for an animation that shows how to perform a certain task, like building a chair.
 
-### Exceptions
+## Exceptions
 
 1. The time limit is longer than 20 hours
 2. The time limit is due to real-time events, like bidding in an online auction where additional time would be unfair.
