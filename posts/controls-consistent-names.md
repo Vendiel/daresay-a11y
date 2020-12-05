@@ -18,7 +18,6 @@ reqs:
 roles:
   - Design
   - Tech
-sidebar_label: Consistency in labels names
 ---
 
 ## Description

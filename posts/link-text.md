@@ -9,7 +9,6 @@ roles:
   - Tech
   - Design
   - Copy
-sidebar_label: Link Text
 ---
 
 ## Description

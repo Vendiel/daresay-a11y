@@ -11,7 +11,6 @@ reqs:
 roles:
   - Design
   - Tech
-sidebar_label: Pop-up content
 ---
 
 ## Description

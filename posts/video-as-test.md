@@ -9,7 +9,6 @@ roles:
   - Design
   - Tech
   - Copy
-sidebar_label: Video as test
 ---
 
 ## Description

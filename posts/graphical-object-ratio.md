@@ -8,7 +8,6 @@ reqs:
   - 1.4.11 AA
 roles:
   - Design
-sidebar_label: Graphical objects ratio
 ---
 
 ## Description

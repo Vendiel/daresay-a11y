@@ -9,7 +9,6 @@ reqs:
   - 1.4.10 AA
 roles:
   - Design
-sidebar_label: Avoid sticky regions
 ---
 
 ## Description

@@ -8,7 +8,6 @@ reqs:
   - 3.3.2 A
 roles:
   - Copy
-sidebar_label: Descriptive Labels
 ---
 
 ## Description

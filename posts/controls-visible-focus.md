@@ -18,7 +18,6 @@ reqs:
   - 1.4.11 A
 roles:
   - Design
-sidebar_label: Controls visibility
 ---
 
 ## Description

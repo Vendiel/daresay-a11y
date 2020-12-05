@@ -8,7 +8,6 @@ reqs:
   - 2.4.4 A
 roles:
   - Tech
-sidebar_label: Alternative Texts for Interactive Image Maps
 ---
 
 ## Additional Information

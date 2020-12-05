@@ -7,7 +7,6 @@ reqs:
   - 3.1.2 AA
 roles:
   - Tech
-sidebar_label: Other Languages
 ---
 
 ## Description

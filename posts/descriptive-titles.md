@@ -8,7 +8,6 @@ reqs:
   - 2.4.2 A
 roles:
   - Copy
-sidebar_label: Descriptive Titles
 ---
 
 ## Description

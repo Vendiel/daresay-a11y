@@ -10,7 +10,6 @@ reqs:
 roles:
   - Tech
   - Design
-sidebar_label: Grouping Checkboxes and Radiobuttons
 ---
 
 ## Description

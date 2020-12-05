@@ -12,7 +12,6 @@ roles:
   - Design
   - Tech
   - Copy
-sidebar_label: Video with audio
 ---
 
 ## Description

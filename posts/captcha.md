@@ -8,7 +8,6 @@ reqs:
 roles:
   - Tech
   - Design
-sidebar_label: CAPTCHA
 ---
 
 ## Description

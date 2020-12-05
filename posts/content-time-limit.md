@@ -8,7 +8,6 @@ reqs:
 roles:
   - Design
   - Tech
-sidebar_label: Content time limit
 ---
 
 ## Description

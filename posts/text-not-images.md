@@ -9,7 +9,6 @@ reqs:
 roles:
   - Design
   - Tech
-sidebar_label: Use Text Rather Than Images of Text
 ---
 
 ## Description

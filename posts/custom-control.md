@@ -7,7 +7,6 @@ reqs:
   - 4.1.2. A
 roles:
   - Tech
-sidebar_label: Custom control
 ---
 
 ## Description

@@ -9,7 +9,6 @@ reqs:
   - 2.4.4 A
 roles:
   - Tech
-sidebar_label: Combine Image and Text Links to the Same Location
 ---
 
 ## Description

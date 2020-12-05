@@ -7,7 +7,6 @@ reqs:
   - 1.3.3 A
 roles:
   - Copy
-sidebar_label: Descriptive Instructions
 ---
 
 ## Description

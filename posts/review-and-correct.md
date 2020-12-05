@@ -9,7 +9,6 @@ reqs:
 roles:
   - Tech
   - Design
-sidebar_label: Use optgroup for group options
 ---
 
 ## Description

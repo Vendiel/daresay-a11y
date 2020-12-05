@@ -9,7 +9,6 @@ reqs:
 roles:
   - Copy
   - Tech
-sidebar_label: Image-only Link Alternative Text
 ---
 
 ## Description

@@ -8,7 +8,6 @@ reqs:
   - 2.1.2 A
 roles:
   - Tech
-sidebar_label:
 ---
 
 ## Description

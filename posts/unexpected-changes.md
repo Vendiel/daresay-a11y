@@ -8,7 +8,6 @@ reqs:
   - 3.2.2 A
 roles:
   - Design
-sidebar_label: Unexpected Changes
 ---
 
 ## Description

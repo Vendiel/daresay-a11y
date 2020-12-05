@@ -8,7 +8,6 @@ reqs:
   - 1.4.1 A
 roles:
   - Design
-sidebar_label: Success States
 ---
 
 ## Description

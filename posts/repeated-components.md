@@ -8,7 +8,6 @@ reqs:
   - 3.2.3 AA
 roles:
   - Design
-sidebar_label: Repeated component occurence
 ---
 
 ## Description

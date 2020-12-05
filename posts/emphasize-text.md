@@ -8,7 +8,6 @@ reqs:
   - 1.3.1 A
 roles:
   - Tech
-sidebar_label: Emphasize Text
 ---
 
 ## Description

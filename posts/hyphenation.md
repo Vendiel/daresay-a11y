@@ -8,7 +8,6 @@ reqs:
   - 1.4.10 AA
 roles:
   - Tech
-sidebar_label: Hyphenation
 ---
 
 ## Description

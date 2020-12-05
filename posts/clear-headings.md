@@ -7,7 +7,6 @@ reqs:
   - 2.4.6 AA
 roles:
   - Copy
-sidebar_label: Clear Headings
 ---
 
 ## Description

@@ -8,7 +8,6 @@ reqs:
 roles:
   - Copy
   - Tech
-sidebar_label: Use Summary for Complex Tables
 ---
 
 ## Description

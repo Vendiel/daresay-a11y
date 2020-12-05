@@ -7,7 +7,6 @@ reqs:
   - 4.1.1 A
 roles:
   - Tech
-sidebar_label: Unsupported Features
 ---
 
 ## Description

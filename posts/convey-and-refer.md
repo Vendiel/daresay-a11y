@@ -8,7 +8,6 @@ reqs:
 roles:
   - Design
   - Copy
-sidebar_label: Convey and refer
 ---
 
 ## Description

@@ -8,7 +8,6 @@ reqs:
 roles:
   - Design
   - Tech
-sidebar_label: Image width adjusted to viewport and zoom levels
 ---
 
 ## Description

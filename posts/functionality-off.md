@@ -7,7 +7,6 @@ reqs:
   - 2.5.4 A
 roles:
   - Design
-sidebar_label:
 ---
 
 ## Description

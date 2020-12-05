@@ -11,12 +11,12 @@ export const FilteredListItem = (props: Props) => {
 
   return (
     <li key={metaData.id}>
-      <input id={metaData.id} type="checkbox" />
-      <label htmlFor={metaData.id}>
-        <Link href={`/posts/${metaData.id}`}>
-          <a>{metaData.title}</a>
-        </Link>
-      </label>
+      {/* <input id={metaData.id} type="checkbox" /> */}
+      {/* <label htmlFor={metaData.id}> */}
+      <Link href={`/posts/${metaData.id}`}>
+        <a>{metaData.title}</a>
+      </Link>
+      {/* </label> */}
     </li>
   );
 };

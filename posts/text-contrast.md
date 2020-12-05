@@ -7,7 +7,6 @@ reqs:
   - 1.4.3 AA
 roles:
   - Design
-sidebar_label: Text Contrast
 ---
 
 ## Description

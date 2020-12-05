@@ -1,6 +1,6 @@
 ---
-id: audio-as-test
-title: For pre-recorded audio that is part of a test or exercise only a descriptive label is needed
+id: audio-test
+title: Pre-recorded audio that is part of a test or exercise only need to have a descriptive label
 tags:
   - Audio
 reqs:
@@ -9,7 +9,6 @@ roles:
   - Design
   - Tech
   - Copy
-sidebar_label: Audio as test
 ---
 
 ## Description

@@ -9,7 +9,6 @@ reqs:
 roles:
   - Tech
   - Design
-sidebar_label: Grouping Options In Lists and Dropdowns
 ---
 
 ## Description

@@ -9,7 +9,6 @@ reqs:
 roles:
   - Copy
   - Tech
-sidebar_label: Alt Description for Images Containing Text
 ---
 
 ## Description

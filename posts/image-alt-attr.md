@@ -8,7 +8,6 @@ reqs:
 roles:
   - Copy
   - Tech
-sidebar_label: Alt Attributes for Informative Images
 ---
 
 ## Description

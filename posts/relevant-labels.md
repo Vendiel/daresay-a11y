@@ -17,7 +17,6 @@ reqs:
 roles:
   - Tech
   - Design
-sidebar_label: Relevant Labels
 ---
 
 ## Description

@@ -8,7 +8,6 @@ reqs:
 roles:
   - Copy
   - Tech
-sidebar_label: Alt Text for Images With Color as Information
 ---
 
 ## Example

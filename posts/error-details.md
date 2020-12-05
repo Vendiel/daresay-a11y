@@ -8,7 +8,6 @@ reqs:
   - 3.3.3 AA
 roles:
   - Copy
-sidebar_label: Error Details
 ---
 
 ## Description

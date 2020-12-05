@@ -7,7 +7,6 @@ reqs:
   - 2.3.1 A
 roles:
   - Design
-sidebar_label: Flashing Gif Content
 ---
 
 ## Description

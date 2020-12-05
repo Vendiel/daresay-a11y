@@ -8,7 +8,6 @@ reqs:
   - 1.4.3 AA
 roles:
   - Design
-sidebar_label: Text on Image Contrast
 ---
 
 ## Description

@@ -7,7 +7,6 @@ reqs:
   - 3.1.1 A
 roles:
   - Tech
-sidebar_label: Default Language
 ---
 
 ## Description

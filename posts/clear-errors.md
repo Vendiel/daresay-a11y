@@ -8,7 +8,6 @@ reqs:
 roles:
   - Tech
   - Design
-sidebar_label: Make Errors Clear To All Users
 ---
 
 ## Description

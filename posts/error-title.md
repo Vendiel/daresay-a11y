@@ -8,7 +8,6 @@ reqs:
 roles:
   - Tech
   - Copy
-sidebar_label: Indicate Errors In Titles
 ---
 
 ## Description

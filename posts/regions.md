@@ -8,7 +8,6 @@ reqs:
   - 2.4.1 A
 roles:
   - Tech
-sidebar_label: Regions
 ---
 
 ## Description

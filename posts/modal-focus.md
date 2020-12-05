@@ -9,7 +9,6 @@ reqs:
   - 2.4.3 A
 roles:
   - Tech
-sidebar_label: Correct Focus in Modal Navigation
 ---
 
 ## Description

@@ -10,7 +10,6 @@ roles:
   - Design
   - Tech
   - Copy
-sidebar_label: Video no audio
 ---
 
 ## Description

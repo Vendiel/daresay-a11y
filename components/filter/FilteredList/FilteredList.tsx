@@ -88,8 +88,13 @@ export const FilteredList = (props: Props) => {
               filterState.rolesCheckboxStates.forEach((element2) => {
                 //BUGG, lägger till dubletter om man väljer flera roller. Behöver inte fortsätta loopa om den hittat  EN.
                 if (element2.checked && post.roles.includes(element2.tagName)) {
-                  filteredPosts.push(post);
-                  // break;
+                  const foundIndex = filteredPosts.findIndex((currentPost: MetaData) => {
+                    return currentPost.id === post.id;
+                  });
+
+                  if (foundIndex === -1) {
+                    filteredPosts.push(post);
+                  }
                   console.log("Wohoo The post had chosen role");
                 } else {
                   console.log("The post didn't have chosen role");

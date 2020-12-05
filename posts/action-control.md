@@ -18,7 +18,6 @@ reqs:
 roles:
   - Design
   - Tech
-sidebar_label: Control release for action
 ---
 
 ## Description

@@ -7,7 +7,6 @@ reqs:
   - 4.1.3 AA
 roles:
   - Tech
-sidebar_label: Status Messages
 ---
 
 ## Description

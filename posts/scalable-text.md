@@ -7,7 +7,6 @@ reqs:
   - 1.4.4 AA
 roles:
   - Tech
-sidebar_label: Scalable Text
 ---
 
 ## Description

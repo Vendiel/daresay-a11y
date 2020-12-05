@@ -7,7 +7,6 @@ reqs:
   - 3.3.3 A
 roles:
   - Tech
-sidebar_label: Mandatory Fields
 ---
 
 ## Description

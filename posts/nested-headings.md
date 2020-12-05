@@ -10,7 +10,6 @@ reqs:
 roles:
   - Design
   - Tech
-sidebar_label: Nested Headings
 ---
 
 ## Description

@@ -17,7 +17,6 @@ reqs:
   - 3.2.1 A
 roles:
   - Design
-sidebar_label: Controls context
 ---
 
 ## Description

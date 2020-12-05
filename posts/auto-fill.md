@@ -7,7 +7,6 @@ reqs:
   - 1.3.5 AA
 roles:
   - Tech
-sidebar_label: Auto-fill
 ---
 
 ## Description

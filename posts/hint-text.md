@@ -7,7 +7,6 @@ reqs:
   - 3.3.2 A
 roles:
   - Design
-sidebar_label: Hint Texts
 ---
 
 ## Description

@@ -9,7 +9,6 @@ reqs:
 roles:
   - Design
   - Tech
-sidebar_label: Video width
 ---
 
 ## Description

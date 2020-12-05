@@ -7,7 +7,6 @@ reqs:
   - 2.5.3 A
 roles:
   - Tech
-sidebar_label: Aria-describedby
 ---
 
 ## Description

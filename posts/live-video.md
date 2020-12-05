@@ -10,7 +10,6 @@ roles:
   - Design
   - Tech
   - Copy
-sidebar_label: Live video
 ---
 
 ## Description

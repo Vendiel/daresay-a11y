@@ -7,7 +7,6 @@ reqs:
   - 1.1.1 A
 roles:
   - Tech
-sidebar_label: Emoticons
 ---
 
 ## Description

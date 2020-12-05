@@ -8,7 +8,6 @@ reqs:
   - 3.2.3 AA
 roles:
   - Tech
-sidebar_label: Navigation links occur in the same relative order
 ---
 
 ## Description
