@@ -5,15 +5,16 @@ import styles from "./FilterGroup.module.css";
 interface Props {
   checkboxStates: Array<CheckboxState>;
   onStateChanged: (checkboxStates: Array<CheckboxState>) => void;
+  header: string;
 }
 
 export const FilterGroup = (props: Props) => {
-  const { checkboxStates, onStateChanged } = props;
+  const { checkboxStates, onStateChanged, header } = props;
 
   return (
     <>
       <fieldset className={styles.card}>
-        <legend>Kategorier</legend>
+        <legend>{header}</legend>
         <ul>
           {checkboxStates.map((item: CheckboxState) => {
             return (

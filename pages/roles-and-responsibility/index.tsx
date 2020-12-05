@@ -60,7 +60,11 @@ export default function RolesPage() {
               <a>check out the checklist</a>
             </Link>{" "}
             to make sure you don't miss anything, like giving all the colors good enough contrast, creating a
-            logical layout and writing clear instructions or help texts.
+            logical layout and writing clear instructions or help texts. You can also check out this page with{" "}
+            <Link href="{`/helpful-tools`}">
+              <a> helpful tools</a>
+            </Link>{" "}
+            to see if there's something that might help you out when working on the user interface.
           </p>
         </section>
 
@@ -86,12 +90,17 @@ export default function RolesPage() {
           </p>
           <p>
             There are some automatical tools you can use to make sure you've covered the basic things when it
-            comes to accessibility. Just remember that there's no tool out there today that will cover every
-            aspect that needs to be considered.
+            comes to accessibility. Just remember that there's no automated tool out there today that will
+            cover every aspect that needs to be considered so it's important that you get a good grasp of what
+            needs to be done. For tips on different tools, you can check out this page with{" "}
+            <Link href="{`/helpful-tools`}">
+              <a> helpful tools</a>
+            </Link>{" "}
+            .
           </p>
         </section>
 
-        <section className={"card"}>
+        <section className={"card zero-margin-bottom"}>
           <h2>Tester</h2>
           <p>
             As a tester it's your job to quality assure that the design and implementation of the product or
@@ -101,34 +110,13 @@ export default function RolesPage() {
           <p>
             Learning how to use the same tools as people with disabilities use is key so make sure you learn
             how to navigate the user interface with a screen reader and test out the entire flow using only
-            keyboard navigation.
+            keyboard navigation. Check out this page with{" "}
+            <Link href="{`/helpful-tools`}">
+              <a> helpful tools</a>
+            </Link>{" "}
+            .
           </p>
           <p>It's also recommended that you include accessibility in ordinarey test cases.</p>
-        </section>
-
-        <section className={"card"}>
-          <h2>Helpful tools</h2>
-          <p>Tools that can help you out during the creating of the product or service.</p>
-          <h3>For designers</h3>
-          <ul>
-            <li>
-              As a visual designer (art director, product designer, UI designer) you can use{" "}
-              <Link href="https://developer.paciellogroup.com/resources/contrastanalyser/">
-                <a>Color Contrast Analyzer</a>
-              </Link>{" "}
-              to make sure that you are using colors with enough contrast. Works for Windows and Mac OSX so
-              not bound to the browser or any specific application. If you use Sketch, Figma or Adobe XD when
-              doing your design you can use the{" "}
-              <Link href="https://www.getstark.co/">
-                <a> Stark plugin</a>
-              </Link>{" "}
-              if you prefer.
-            </li>
-          </ul>
-          <h3>For developers</h3>
-          <p>A list, automated tools. validating code</p>
-          <h3>For testers</h3>
-          <p>A list</p>
         </section>
       </div>
 

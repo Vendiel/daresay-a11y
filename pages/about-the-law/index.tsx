@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import { ColorTheme, RelatedCard } from "../../components/general/RelatedCard/RelatedCard";
-import { List } from "../../components/general/List/List";
 
 export default function AboutLawPage() {
   return (

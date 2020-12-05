@@ -13,6 +13,7 @@ export const FilterSidebar = (props: Props) => {
   return (
     <section className={styles.filter}>
       <FilterGroup
+        header="Categories"
         checkboxStates={allCheckboxStates.tagsCheckboxStates}
         onStateChanged={(tagsStates) => {
           const allCheckboxStatesCopy: AllCheckboxStates = JSON.parse(JSON.stringify(allCheckboxStates));
@@ -21,6 +22,7 @@ export const FilterSidebar = (props: Props) => {
         }}
       />
       <FilterGroup
+        header="Roles"
         checkboxStates={allCheckboxStates.rolesCheckboxStates}
         onStateChanged={(rolesStates) => {
           const allCheckboxStatesCopy: AllCheckboxStates = JSON.parse(JSON.stringify(allCheckboxStates));
@@ -28,14 +30,15 @@ export const FilterSidebar = (props: Props) => {
           onCheckboxChanged(allCheckboxStatesCopy);
         }}
       />
-      <FilterGroup
+      {/* <FilterGroup
+        header="Requriements"
         checkboxStates={allCheckboxStates.reqsCheckboxStates}
         onStateChanged={(reqsStates) => {
           const allCheckboxStatesCopy: AllCheckboxStates = JSON.parse(JSON.stringify(allCheckboxStates));
           allCheckboxStatesCopy.reqsCheckboxStates = reqsStates;
           onCheckboxChanged(allCheckboxStatesCopy);
         }}
-      />
+      /> */}
     </section>
   );
 };
