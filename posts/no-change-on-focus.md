@@ -1,7 +1,8 @@
 ---
 id: no-change-on-focus
-title: No unexpected change in context shall occur when a control receives focus
+title: When a control receives focus no unexpected change in context shall occur
 tags:
+  - Forms
   - Controls
   - Buttons
   - Text fields
@@ -21,7 +22,7 @@ roles:
 
 ## Description
 
-When a control receives focus it shall not result in a substantial change that disorients the users. All changes of context would be triggered only by a specific action on the part of the user.
+When a control receives focus it shall not result in a substantial change of context that disorients the users. All changes of context should be triggered by user action.
 
 ## Examples
 

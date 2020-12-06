@@ -1,6 +1,6 @@
 ---
-id: accessible-name
-title: Make sure that controls with visible label (either as text or image) has a matching “accessible name”
+id: controls-accessible-name
+title: Controls with a visible label (either as text or image) must have a matching accessible name
 tags:
   - Controls
   - Buttons
@@ -20,9 +20,9 @@ roles:
 
 ## Description
 
-The “accessible name” is the programmatic name for a control and is derived from a visible or invisible property of the element, like a visible text on a button or the text alternative that describes an icon.
+The accessible name is the programmatic name for a control and is derived from a visible or invisible property of the element, like a visible text on a button or the text alternative that describes an icon.
 
-The accessible name is important when user uses speech as input. When speech recognition software processes speech input and looks for matches, it uses the accessible name of controls. If there is a mismatch between the text in the visible label and the text in the accessible name, it can cause issues for the user when trying to navigate to it or selecting it.
+The accessible name is important when user uses speech as input. When speech recognition software processes speech input and looks for matches, it matches against the accessible name of the control. If there is a mismatch between the text in the visible label and the text in the accessible name, it can cause issues for the user when trying to navigate to it or selecting it.
 
 Preferably the visible label and accessible name should match 1:1. In those situations where additional context is needed its important that the visual label occur in its entirely in the accessible name, preferably in the beginning.
 

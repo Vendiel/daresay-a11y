@@ -3,6 +3,7 @@ import { getAllPostIds, getPostData } from "../../lib/posts";
 import styles from "./id.module.css";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { TagButton } from "../../components/general/TagButton/TagButton";
+import Link from "next/link";
 
 interface PostData {
   title: string;
@@ -47,11 +48,12 @@ export const Post = (props: Props) => {
 
           <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
-        {/* <div className={styles.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
+        <div className={styles.backToList}>
+          <span aria-hidden="true">← </span>
+          <Link href="/checklist">
+            <a>Back to list</a>
           </Link>
-        </div> */}
+        </div>
       </div>
     </>
   );

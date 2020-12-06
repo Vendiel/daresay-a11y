@@ -1,9 +1,19 @@
 ---
 id: unexpected-changes
-title: No unexpected change in context shall occur when a user is interacting with a form control
+title: When a user interacts with a control no unexpected change in context shall occur
 tags:
   - Forms
   - Controls
+  - Buttons
+  - Text fields
+  - Radio buttons
+  - Checkboxes
+  - Drop downs
+  - File select fields
+  - Date pickers
+  - Buttons
+  - Tabs
+  - Slider
 reqs:
   - 3.2.2 A
 roles:

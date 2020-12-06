@@ -1,6 +1,6 @@
 ---
 id: controls-contrast-ratio
-title: All active controls must have a contrast ratio of at least 3:1 against adjacent color(s)
+title: An active control must have a contrast ratio of at least 3:1 against adjacent color(s)
 tags:
   - Controls
   - Buttons
@@ -26,8 +26,6 @@ Active controls like buttons, text fields, checkboxes, tabs, rating stars, etc m
 Note. It's not needed to have a 3:1 contrast between the different states of the control, since they do not appear next to each other at the same time.
 
 ## Exceptions
-
-Exceptions that doesn't need to meet the contrast criteria:
 
 1. If the component is inactive (disabled).
 2. If the visual appearance of the control is decided by the user agent (browser) and hasn't been modified.

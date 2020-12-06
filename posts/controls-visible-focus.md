@@ -1,6 +1,6 @@
 ---
 id: controls-visible-focus
-title: Make sure controls have a highly visible focus indicator
+title: Controls must have a highly visible focus indicator
 tags:
   - Controls
   - Buttons
@@ -22,6 +22,6 @@ roles:
 
 ## Description
 
-Visible focus styles help people determine which interactive element has keyboard focus when tabbing through the UI. Important for people with low vision, motor disabilities and attention disorders.
+Visible focus styles help people determine which interactive element that has keyboard focus when tabbing through the UI. This is important for people with low vision, motor disabilities and attention disorders.
 
-Enhance the visual appearance of the focus indicator used in the browser so it will be easier to see, the default one is usually to difficult to see.
+Enhance the visual appearance of the focus indicator used in the browser so it will be easier to see, the default provided by the browsers are usually difficult to see.
