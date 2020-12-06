@@ -13,7 +13,11 @@
 @media (max-width: 768px) {
   .card {
     margin-bottom: 0;
-    max-width: 150px;
+    min-width: 130px;
+  }
+
+  .card:first-child {
+    margin-right: var(--spacing-3x);
   }
 }
 
