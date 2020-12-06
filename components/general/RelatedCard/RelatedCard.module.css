@@ -1,18 +1,18 @@
 .card {
+  flex-basis: 40%;
+  margin-top: var(--spacing-3x);
+  padding: var(--spacing-5x);
   background-color: var(--color-white);
   border-radius: 24px;
-  padding: var(--spacing-5x);
-  flex-basis: 50%;
   text-decoration: none;
   font-size: 1.125rem;
   font-weight: 700;
-  display: flex;
-  align-items: center;
-  margin-right: var(--spacing-3x);
 }
 
-.card:last-child {
-  margin-right: 0;
+@media (max-width: 900px) {
+  .card {
+    flex-basis: 100%;
+  }
 }
 
 .card span {
@@ -20,6 +20,19 @@
   margin-right: var(--spacing-3x);
   font-size: 2rem;
   margin-right: var(--spacing-2x);
+}
+
+@media (max-width: 460px) {
+  .card span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .card span {
+    display: block;
+    margin-bottom: var(--spacing-mini);
+  }
 }
 
 .arrow {

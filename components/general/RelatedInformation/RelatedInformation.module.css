@@ -1,0 +1,20 @@
+.relatedinfo {
+  border-top: 1px solid var(--color-gray-20);
+}
+
+.relatedinfo h2 {
+  margin-bottom: var(--spacing-base);
+}
+
+@media (max-width: 480px) {
+  .relatedinfo h2 {
+    margin-bottom: 0;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* flex-direction: row; */
+}

@@ -1,6 +1,10 @@
 import Head from "next/head";
 import Link from "next/link";
 import { ColorTheme, RelatedCard } from "../../components/general/RelatedCard/RelatedCard";
+import {
+  RelatedCardType,
+  RelatedInformation,
+} from "../../components/general/RelatedInformation/RelatedInformation";
 
 export default function AboutLawPage() {
   return (
@@ -184,36 +188,15 @@ export default function AboutLawPage() {
         </section>
       </div>
 
-      <div className={"wrapper related-info"}>
-        <h2>Related information</h2>
-        <div className={"flex-row margin-bottom-3x"}>
-          <RelatedCard
-            icon="👩‍🦼"
-            linkText="Understanding the user"
-            url="/understanding-the-user"
-            colorTheme={ColorTheme.COLOR2}
-          />
-          <RelatedCard
-            icon="🎖"
-            linkText="Your role and responsibility"
-            url="/roles-and-responsibility"
-            colorTheme={ColorTheme.COLOR3}
-          />
-        </div>
-        <div className={"flex-row"}>
-          <RelatedCard
-            icon="📐"
-            linkText="Helpful tools"
-            url="/helpful-tools"
-            colorTheme={ColorTheme.COLOR4}
-          />
-          <RelatedCard
-            icon="✔"
-            linkText="Accessibility checklist"
-            url="/checklist"
-            colorTheme={ColorTheme.COLOR5}
-          />
-        </div>
+      <div className={"wrapper"}>
+        <RelatedInformation
+          relatedCardTypes={[
+            RelatedCardType.USER,
+            RelatedCardType.ROLE,
+            RelatedCardType.TOOLS,
+            RelatedCardType.CHECKLIST,
+          ]}
+        />
       </div>
     </>
   );

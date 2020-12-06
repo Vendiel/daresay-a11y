@@ -1,4 +1,3 @@
-import styles from "./FilteredListItem.module.css";
 import Link from "next/link";
 import { MetaData } from "../../models/postModels";
 

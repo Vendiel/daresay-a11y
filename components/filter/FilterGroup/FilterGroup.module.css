@@ -10,6 +10,20 @@
   margin-bottom: 0;
 }
 
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 0;
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    margin-bottom: var(--spacing-2x);
+    max-width: 100%;
+  }
+}
+
 .card legend {
   font-weight: 700;
   font-size: 1.2rem;

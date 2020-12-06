@@ -8,6 +8,12 @@ body {
   padding: var(--spacing-7x) var(--spacing-4x);
 }
 
+@media (max-width: 480px) {
+  .wrapper {
+    padding: var(--spacing-4x) var(--spacing-2x);
+  }
+}
+
 .margin-bottom-6x {
   margin-bottom: var(--spacing-6x);
 }
@@ -24,10 +30,10 @@ main {
   background-color: var(--color-gray-5);
 }
 
-.flex-row {
+/* .flex-row {
   display: flex;
   flex-direction: row;
-}
+} */
 
 /* focus */
 
@@ -44,16 +50,10 @@ main {
 .colored-bg {
   background-color: var(--color-primary-10);
 }
-/* 
+
 .colored-bg .wrapper div {
   border-left: 12px solid var(--color-primary-40);
   padding-left: var(--spacing-5x);
-} */
-
-.related-info h2 {
-  border-top: 1px solid var(--color-gray-20);
-  margin: 0 0 var(--spacing-5x) 0;
-  padding-top: var(--spacing-5x);
 }
 
 /* colored intro */
@@ -62,17 +62,21 @@ main {
   background-color: var(--color-card1);
 }
 
+.colored-bg1 h1 {
+  color: var(--color-card1-dark);
+}
+
 .colored-bg1 .wrapper div {
   border-left: 12px solid var(--color-card1-dark);
   padding-left: var(--spacing-5x);
 }
 
-.colored-bg1 h1 {
-  color: var(--color-card1-dark);
-}
-
 .colored-bg2 {
   background-color: var(--color-card2);
+}
+
+.colored-bg2 h1 {
+  color: var(--color-card2-dark);
 }
 
 .colored-bg2 .wrapper div {
@@ -80,12 +84,12 @@ main {
   padding-left: var(--spacing-5x);
 }
 
-.colored-bg2 h1 {
-  color: var(--color-card2-dark);
-}
-
 .colored-bg3 {
   background-color: var(--color-card3);
+}
+
+.colored-bg3 h1 {
+  color: var(--color-card3-dark);
 }
 
 .colored-bg3 .wrapper div {
@@ -93,12 +97,12 @@ main {
   padding-left: var(--spacing-5x);
 }
 
-.colored-bg3 h1 {
-  color: var(--color-card3-dark);
-}
-
 .colored-bg4 {
   background-color: var(--color-card4);
+}
+
+.colored-bg4 h1 {
+  color: var(--color-card4-dark);
 }
 
 .colored-bg4 .wrapper div {
@@ -106,8 +110,15 @@ main {
   padding-left: var(--spacing-5x);
 }
 
-.colored-bg4 h1 {
-  color: var(--color-card4-dark);
+@media (max-width: 480px) {
+  .colored-bg .wrapper div,
+  .colored-bg1 .wrapper div,
+  .colored-bg2 .wrapper div,
+  .colored-bg3 .wrapper div,
+  .colored-bg4 .wrapper div {
+    border-left: none;
+    padding: 0 var(--spacing-base);
+  }
 }
 
 /* card */
@@ -117,6 +128,19 @@ main {
   padding: var(--spacing-6x);
   border-radius: 24px;
   margin-bottom: var(--spacing-6x);
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: var(--spacing-5x);
+    margin-bottom: var(--spacing-4x);
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: var(--spacing-3x);
+  }
 }
 
 .card h2 {
@@ -188,7 +212,13 @@ main img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  max-width: 500px;
+}
+
+@media (max-width: 768px) {
+  main img {
+    width: 100%;
+  }
 }
 
 /* zero padding margins etc */

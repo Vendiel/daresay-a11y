@@ -1,11 +1,19 @@
 .card {
+  display: flex;
+  flex-direction: row;
   background-color: var(--color-white);
   padding: var(--spacing-6x);
   border-radius: 24px;
+  margin-bottom: var(--spacing-6x);
+}
+
+.nomarginbottom {
+  margin-bottom: 0;
 }
 
 .card h2 {
   margin-top: 0;
+  margin-bottom: var(--spacing-2x);
 }
 
 .card .cardicon {
@@ -18,4 +26,25 @@
   background-color: var(--color-primary-10);
   padding: var(--spacing-3x) var(--spacing-2x);
   border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: var(--spacing-3x);
+  }
+
+  .card span {
+    font-size: 2rem;
+    padding: var(--spacing-2x) var(--spacing-2x);
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card .cardicon {
+    margin-bottom: var(--spacing-2x);
+  }
 }

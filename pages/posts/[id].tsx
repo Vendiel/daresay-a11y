@@ -31,17 +31,17 @@ export const Post = (props: Props) => {
           <ul className={styles.tagGroup}>
             {postData.tags.map((tag) => (
               <li key={tag}>
-                <TagButton tagName={tag} />
+                <TagButton tagName={tag} type="tag" />
               </li>
             ))}
             {postData.roles.map((role) => (
               <li key={role}>
-                <TagButton tagName={role} />
+                <TagButton tagName={role} type="role" />
               </li>
             ))}
             {postData.reqs.map((req) => (
               <li key={req}>
-                <TagButton tagName={req} />
+                <TagButton tagName={req} type="req" />
               </li>
             ))}
           </ul>

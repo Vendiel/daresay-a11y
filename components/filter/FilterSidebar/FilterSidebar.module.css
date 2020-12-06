@@ -2,3 +2,21 @@
   min-width: 25%;
   margin-right: var(--spacing-4x);
 }
+
+@media (max-width: 768px) {
+  .filter {
+    margin-right: 0;
+    min-width: initial;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* width: 30%; */
+    /* margin-right: 0; */
+  }
+}
+
+@media (max-width: 480px) {
+  .filter {
+    flex-direction: column;
+  }
+}

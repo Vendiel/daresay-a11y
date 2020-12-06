@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from "./MainCard.module.css";
 import classNames from "classnames";
 
@@ -13,7 +12,8 @@ export const MainCard = (props: Props) => {
   const { icon, header, content, bottomMargin = true } = props;
 
   return (
-    <section className={classNames(styles.card, "flex-row", bottomMargin && "margin-bottom-6x")}>
+    // <section className={classNames(styles.card, bottomMargin && "margin-bottom-6x")}>
+    <section className={classNames(styles.card, !bottomMargin && styles.nomarginbottom)}>
       <div className={styles.cardicon}>
         <span aria-hidden="true">{icon}</span>
       </div>

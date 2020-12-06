@@ -3,6 +3,12 @@
   margin-bottom: var(--spacing-2x);
 }
 
+@media (max-width: 480px) {
+  .header {
+    margin-top: var(--spacing-4x);
+  }
+}
+
 .number {
   display: block;
   margin-bottom: var(--spacing-3x);
@@ -19,6 +25,22 @@
   padding: var(--spacing-5x);
   border-top: 1px solid var(--color-gray-10);
   margin-bottom: 0;
+}
+
+.checklist li a {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .checklist li {
+    padding: var(--spacing-4x);
+  }
+}
+
+@media (max-width: 480px) {
+  .checklist li {
+    padding: var(--spacing-3x);
+  }
 }
 
 .checklist li:before {

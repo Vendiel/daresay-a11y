@@ -51,3 +51,10 @@ a:hover {
 a:active {
   background: var(--color-gray-10);
 }
+
+pre {
+  display: block;
+  font-family: monospace;
+  padding: var(--spacing-2x) var(--spacing-3x);
+  background-color: var(--color-primary-5);
+}
