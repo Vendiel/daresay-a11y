@@ -7,6 +7,9 @@ import { FilteredList } from "../../components/filter/FilteredList/FilteredList"
 import { AllGroupsAndTags } from "../../components/models/tagModels";
 import { AllMetaData } from "../../components/models/postModels";
 import { useEffect, useState } from "react";
+import { RoleFilter } from "../../components/filter/RoleFilter/RoleFilter";
+import { CategoryFilter } from "../../components/filter/CategoryFilter/CategoryFilter";
+import { FilterGroup } from "../../components/filter/FilterGroup/FilterGroup";
 
 interface Props {
   allMetaData: AllMetaData;
@@ -20,8 +23,8 @@ export interface CheckboxState {
 
 export interface AllCheckboxStates {
   tagsCheckboxStates: Array<CheckboxState>;
-  rolesCheckboxStates: Array<CheckboxState>;
-  reqsCheckboxStates: Array<CheckboxState>;
+  rolesRadiobuttonStates: Array<CheckboxState>;
+  // reqsCheckboxStates: Array<CheckboxState>;
 }
 
 //Loops and adds checked=false for every tag item
@@ -40,21 +43,17 @@ const getInitialState = (tags: Array<string>): Array<CheckboxState> => {
 const getAllInitialStates = (getAllGroupsAndTags: AllGroupsAndTags): AllCheckboxStates => {
   return {
     tagsCheckboxStates: getInitialState(getAllGroupsAndTags.tags),
-    rolesCheckboxStates: getInitialState(getAllGroupsAndTags.roles),
-    reqsCheckboxStates: getInitialState(getAllGroupsAndTags.reqs),
+    rolesRadiobuttonStates: getInitialState(getAllGroupsAndTags.roles),
+    // reqsCheckboxStates: getInitialState(getAllGroupsAndTags.reqs),
   };
 };
 
 export const ChecklistPage = (props: Props) => {
   const { allMetaData, allGroupsAndTags } = props;
-  // console.log(allMetaData);
-  // console.log(allGroupsAndTags);
 
   const [allCheckboxStates, setAllCheckboxStates] = useState(getAllInitialStates(allGroupsAndTags));
 
   useEffect(() => {}, [allCheckboxStates]);
-
-  // console.log(allCheckboxStates);
 
   return (
     <>
@@ -62,11 +61,15 @@ export const ChecklistPage = (props: Props) => {
         <title>The accessibility checklist</title>
       </Head>
       <div className={"wrapper"}>
+        <h1>Guidelines</h1>
         <div className={styles.container}>
-          <FilterSidebar
-            allCheckboxStates={allCheckboxStates}
-            onCheckboxChanged={(newAllGroupsAndTags: AllCheckboxStates) => {
-              setAllCheckboxStates(newAllGroupsAndTags);
+          <CategoryFilter
+            header="Categories"
+            checkboxStates={allCheckboxStates.tagsCheckboxStates} //skickar ner tags checkbox states
+            onStateChanged={(tagsStates) => {
+              const allCheckboxStatesCopy: AllCheckboxStates = JSON.parse(JSON.stringify(allCheckboxStates));
+              allCheckboxStatesCopy.tagsCheckboxStates = tagsStates;
+              setAllCheckboxStates(allCheckboxStatesCopy);
             }}
           />
           <FilteredList allMetaData={allMetaData} filterState={allCheckboxStates} />

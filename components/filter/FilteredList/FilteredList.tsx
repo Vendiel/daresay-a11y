@@ -37,7 +37,7 @@ export const FilteredList = (props: Props) => {
       }
     });
 
-    filterState.rolesCheckboxStates.forEach((element) => {
+    filterState.rolesRadiobuttonStates.forEach((element) => {
       if (element.checked) {
         anyRoleIsChecked = true;
       }
@@ -51,7 +51,7 @@ export const FilteredList = (props: Props) => {
     //2. Om ingen kategori är vald, men något är valt under roll, visa alla posts med de valda rollerna
     if (!anyTagIsChecked && anyRoleIsChecked) {
       //För varje role som har checked=true, loopa igenom allPosts och filtrera ur den till visiblePosts
-      filterState.rolesCheckboxStates.forEach((element) => {
+      filterState.rolesRadiobuttonStates.forEach((element) => {
         if (element.checked) {
           allPosts.forEach((post) => {
             if (post.roles.includes(element.tagName)) {
@@ -86,7 +86,7 @@ export const FilteredList = (props: Props) => {
         if (element.checked) {
           allPosts.forEach((post) => {
             if (post.tags.includes(element.tagName)) {
-              filterState.rolesCheckboxStates.forEach((element2) => {
+              filterState.rolesRadiobuttonStates.forEach((element2) => {
                 if (element2.checked && post.roles.includes(element2.tagName)) {
                   if (!postAlreadyAdded(post, filteredPosts)) {
                     filteredPosts.push(post);
@@ -104,7 +104,6 @@ export const FilteredList = (props: Props) => {
 
   return (
     <section>
-      <h1 className={styles.header}>Guidelines</h1>
       <span className={styles.number}>{visiblePosts.length} items found</span>
 
       <ul className={styles.checklist}>
