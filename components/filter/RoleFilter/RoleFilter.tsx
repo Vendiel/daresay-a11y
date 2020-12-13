@@ -1,34 +1,47 @@
-import { CheckboxState } from "../../../pages/checklist";
+import { FilterState } from "../../../pages/checklist";
 import { FilterRadiobutton } from "../FilterRadiobutton/FilterRadiobutton";
 import styles from "./RoleFilter.module.css";
-import { AllCheckboxStates } from "../../../pages/checklist";
 
 interface Props {
-  radiobuttonStates: Array<CheckboxState>;
-  onStateChanged: (checkboxStates: Array<CheckboxState>) => void;
   header: string;
+  radiobuttonStates: Array<FilterState>; //ner
+  onStateChanged: (radiobuttonStates: Array<FilterState>) => void; //upp, ropas  på när man uppdaterar värdet
 }
 
 export const RoleFilter = (props: Props) => {
-  const { radiobuttonStates, onStateChanged, header } = props;
+  const { header, radiobuttonStates, onStateChanged } = props;
 
+  //behöver göra nåt gemensamt här - bygga ut radiobuttonStates med All roles?
   return (
     <>
       <fieldset className={styles.card}>
         <legend>{header}</legend>
         <ul>
-          {radiobuttonStates.map((item: CheckboxState) => {
+          {radiobuttonStates.map((item: FilterState) => {
+            const roleName = item.tagName.toLowerCase();
+
             return (
               <FilterRadiobutton
-                item={item.tagName}
+                label={item.tagName}
+                id={roleName}
+                name={"roles"}
+                value={roleName}
                 checked={item.checked}
                 onChange={() => {
+                  //pratar uppåt med föräldern..
+                  console.log("rolefilter, onchange");
                   const resultIndex = radiobuttonStates.findIndex((currentItem) => {
                     return currentItem.tagName === item.tagName;
                   });
-                  const checkboxStateCopy = JSON.parse(JSON.stringify(radiobuttonStates));
-                  checkboxStateCopy[resultIndex].checked = !checkboxStateCopy[resultIndex].checked; // Toggle value by using ! operator.
-                  onStateChanged(checkboxStateCopy); // Prata uppåt med föräldern.. :)
+                  const radiobuttonStateCopy: Array<FilterState> = JSON.parse(
+                    JSON.stringify(radiobuttonStates)
+                  );
+                  radiobuttonStateCopy.forEach((element) => {
+                    element.checked = false;
+                  });
+                  radiobuttonStateCopy[resultIndex].checked = true; //den man petar på blir true
+
+                  onStateChanged(radiobuttonStateCopy); // Prata uppåt med föräldern.. :)
                 }}
               />
             );

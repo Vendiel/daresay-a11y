@@ -1,7 +1,7 @@
 import styles from "./FilteredList.module.css";
 import { FilteredListItem } from "../FilteredListItem/FilteredListItem";
 import { AllMetaData, MetaData } from "../../models/postModels";
-import { AllCheckboxStates, CheckboxState } from "../../../pages/checklist";
+import { AllCheckboxStates } from "../../../pages/checklist";
 import { useEffect, useState } from "react";
 
 interface Props {
