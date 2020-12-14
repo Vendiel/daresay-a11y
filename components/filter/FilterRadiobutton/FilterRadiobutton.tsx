@@ -1,4 +1,5 @@
 import { ChangeEventHandler } from "react";
+import styles from "./FilterRadiobutton.module.css";
 
 interface Props {
   label: string;
@@ -13,9 +14,11 @@ export const FilterRadiobutton = (props: Props) => {
   const { label, id, name, value, checked, onChange } = props;
 
   return (
-    <li>
-      <input type="radio" id={id} name={name} value={value} checked={checked} onChange={onChange} />
-      <label htmlFor={id}>{label}</label>
-    </li>
+    <>
+      <div className={styles.radiobutton}>
+        <input type="radio" id={id} name={name} value={value} checked={checked} onChange={onChange} />
+        <label htmlFor={id}>{label}</label>
+      </div>
+    </>
   );
 };

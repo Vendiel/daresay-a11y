@@ -1,0 +1,7 @@
+.radiobutton {
+  border: 1px solid red;
+  display: inline-block;
+  padding: var(--spacing-base) var(--spacing-3x);
+  /* margin-right: var(--spacing-base); */
+  /* border-radius: var(--spacing-2x); */
+}

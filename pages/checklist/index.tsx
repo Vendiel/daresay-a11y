@@ -37,15 +37,14 @@ const getInitialState = (tags: Array<string>): Array<FilterState> => {
   );
 };
 
-//Sets initial value to false for every tag item
+//Sets initial value to false for every tag item + add All posts first to Roles
 const getAllInitialStates = (getAllGroupsAndTags: AllGroupsAndTags): AllCheckboxStates => {
   return {
     tagsCheckboxStates: getInitialState(getAllGroupsAndTags.tags),
     rolesRadiobuttonStates: [
-      { tagName: "All posts", checked: true },
+      { tagName: "All roles", checked: true },
       ...getInitialState(getAllGroupsAndTags.roles),
     ],
-    // reqsCheckboxStates: getInitialState(getAllGroupsAndTags.reqs),
   };
 };
 
@@ -53,10 +52,8 @@ export const ChecklistPage = (props: Props) => {
   const { allMetaData, allGroupsAndTags } = props;
 
   const [allCheckboxStates, setAllCheckboxStates] = useState(getAllInitialStates(allGroupsAndTags));
-  console.log("index, efter initial", allCheckboxStates.rolesRadiobuttonStates);
 
   useEffect(() => {}, [allCheckboxStates]);
-  console.log("index, efter useeffect", allCheckboxStates.rolesRadiobuttonStates);
 
   return (
     <>
@@ -65,21 +62,19 @@ export const ChecklistPage = (props: Props) => {
       </Head>
       <div className={"wrapper"}>
         <h1>Guidelines</h1>
-        <div className={styles.container}>
+        <div>
           <RoleFilter
-            //Två problem: behöver klicka två ggr på radiobuttons  + behöver sätta tidigare true till false.
-
             header="Roles"
             radiobuttonStates={allCheckboxStates.rolesRadiobuttonStates} //skickar ner roles checked states?
             onStateChanged={(rolesStates) => {
               console.log("index onStateChange");
               const allCheckboxStatesCopy: AllCheckboxStates = JSON.parse(JSON.stringify(allCheckboxStates));
               allCheckboxStatesCopy.rolesRadiobuttonStates = rolesStates;
-              // console.log(allCheckboxStatesCopy.rolesRadiobuttonStates);
-
               setAllCheckboxStates(allCheckboxStatesCopy);
             }}
           />
+        </div>
+        <div className={styles.container}>
           <CategoryFilter
             header="Categories"
             checkboxStates={allCheckboxStates.tagsCheckboxStates} //skickar ner tags checked states
