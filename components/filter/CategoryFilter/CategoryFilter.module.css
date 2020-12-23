@@ -1,30 +1,14 @@
 .card {
   background-color: var(--color-primary-10);
-  padding: var(--spacing-5x);
+  padding: var(--spacing-4x) var(--spacing-5x);
   border-radius: var(--spacing-4x);
-  margin: 0;
-  margin-bottom: var(--spacing-2x);
-}
-
-.card:last-child {
-  margin-bottom: 0;
+  margin-right: var(--spacing-3x);
+  min-width: 160px;
 }
 
 @media (max-width: 768px) {
   .card {
-    margin-bottom: 0;
-    min-width: 130px;
-  }
-
-  .card:first-child {
-    margin-right: var(--spacing-3x);
-  }
-}
-
-@media (max-width: 480px) {
-  .card {
-    margin-bottom: var(--spacing-2x);
-    max-width: 100%;
+    margin-right: 0;
   }
 }
 
@@ -38,7 +22,7 @@
 }
 
 .card ul {
-  list-style: none;
+  clear: both;
   padding: 0;
   margin: 0;
 }

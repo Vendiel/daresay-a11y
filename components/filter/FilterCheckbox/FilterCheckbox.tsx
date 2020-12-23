@@ -1,4 +1,5 @@
 import { ChangeEventHandler } from "react";
+import styles from "./FilterCheckbox.module.css";
 
 interface Props {
   item: string;
@@ -9,7 +10,7 @@ interface Props {
 export const FilterCheckbox = (props: Props) => {
   const { item, checked, onChange } = props;
   return (
-    <li>
+    <li className={styles.checkbox}>
       <input id={item} type="checkbox" checked={checked} onChange={onChange} />
       <label htmlFor={item}>{item}</label>
     </li>

@@ -5,7 +5,7 @@ import styles from "./RoleFilter.module.css";
 interface Props {
   header: string;
   radiobuttonStates: Array<FilterState>; //ner
-  onStateChanged: (radiobuttonStates: Array<FilterState>) => void; //upp, ropas  på när man uppdaterar värdet
+  onStateChanged: (radiobuttonStates: Array<FilterState>) => void; //upp, ropas på när man uppdaterar värdet
 }
 
 export const RoleFilter = (props: Props) => {
@@ -15,6 +15,7 @@ export const RoleFilter = (props: Props) => {
     <>
       <fieldset className={styles.card}>
         <legend>{header}</legend>
+
         {radiobuttonStates.map((item: FilterState) => {
           const roleName = item.tagName.toLowerCase();
 

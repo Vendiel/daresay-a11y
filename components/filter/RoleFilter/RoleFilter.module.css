@@ -1,16 +1,9 @@
 .card {
   background-color: var(--color-primary-10);
-  /* padding: 0 0 var(--spacing-3x) 0; */
-  /* border-radius: var(--spacing-4x); */
-  margin: 0;
-  /* border: 1px solid red; */
-  margin-bottom: var(--spacing-2x);
-  background-color: var(--color-primary-10);
+  border-radius: var(--spacing-4x);
+  margin-bottom: var(--spacing-3x);
+  padding: var(--spacing-3x);
   display: flex;
-}
-
-.card:last-child {
-  margin-bottom: 0;
 }
 
 /* @media (max-width: 768px) {
@@ -35,8 +28,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   float: left;
-  display: inline;
-  border: 1px solid red;
+  padding: var(--spacing-base) var(--spacing-3x) var(--spacing-base) var(--spacing-base);
   /* width: 100%; */
   /* margin-bottom: var(--spacing-2x); */
 }

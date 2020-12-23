@@ -1,7 +1,20 @@
 .radiobutton {
-  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  padding-right: var(--spacing-2x);
+}
+
+.radiobutton:last-child {
+  padding-right: 0;
+}
+
+.radiobutton input[type="radio"] {
+  width: 20px;
+  height: 20px;
+}
+
+.radiobutton label {
+  padding: var(--spacing-base) var(--spacing-base) var(--spacing-mini) var(--spacing-mini);
   display: inline-block;
-  padding: var(--spacing-base) var(--spacing-3x);
-  /* margin-right: var(--spacing-base); */
-  /* border-radius: var(--spacing-2x); */
 }

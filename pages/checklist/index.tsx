@@ -60,20 +60,21 @@ export const ChecklistPage = (props: Props) => {
       <Head>
         <title>The accessibility checklist</title>
       </Head>
+
       <div className={"wrapper"}>
-        <h1>Guidelines</h1>
+        <h1>Checklist</h1>
         <div>
           <RoleFilter
-            header="Roles"
+            header="Choose role"
             radiobuttonStates={allCheckboxStates.rolesRadiobuttonStates} //skickar ner roles checked states?
             onStateChanged={(rolesStates) => {
-              console.log("index onStateChange");
               const allCheckboxStatesCopy: AllCheckboxStates = JSON.parse(JSON.stringify(allCheckboxStates));
               allCheckboxStatesCopy.rolesRadiobuttonStates = rolesStates;
               setAllCheckboxStates(allCheckboxStatesCopy);
             }}
           />
         </div>
+
         <div className={styles.container}>
           <CategoryFilter
             header="Categories"
@@ -84,6 +85,7 @@ export const ChecklistPage = (props: Props) => {
               setAllCheckboxStates(allCheckboxStatesCopy);
             }}
           />
+
           <FilteredList allMetaData={allMetaData} filterState={allCheckboxStates} />
         </div>
       </div>
