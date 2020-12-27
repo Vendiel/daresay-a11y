@@ -30,6 +30,7 @@ export const FilteredList = (props: Props) => {
     let filteredPosts = [];
     let anyTagIsChecked = false;
     let anyRoleIsChecked = false;
+    let allRolesChecked = false;
 
     filterState.tagsCheckboxStates.forEach((element) => {
       if (element.checked) {
@@ -38,13 +39,16 @@ export const FilteredList = (props: Props) => {
     });
 
     filterState.rolesRadiobuttonStates.forEach((element) => {
-      if (element.checked) {
+      if (element.tagName === "All roles" && element.checked) {
+        allRolesChecked = true;
+      }
+      if (element.tagName !== "All roles" && element.checked) {
         anyRoleIsChecked = true;
       }
     });
 
-    //1. Om ingen kategori är vald och ingen roll är vald, visa alla.
-    if (!anyTagIsChecked && !anyRoleIsChecked) {
+    //1. Om ingen kategori är vald och all roles är vald, visa alla.
+    if (!anyTagIsChecked && allRolesChecked) {
       filteredPosts = [...allMetaData.posts];
     }
 

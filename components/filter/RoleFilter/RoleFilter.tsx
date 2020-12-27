@@ -28,7 +28,6 @@ export const RoleFilter = (props: Props) => {
               checked={item.checked}
               onChange={() => {
                 //pratar uppåt med föräldern..
-                console.log("rolefilter, onchange");
                 const resultIndex = radiobuttonStates.findIndex((currentItem) => {
                   return currentItem.tagName === item.tagName;
                 });
