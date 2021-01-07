@@ -1,6 +1,6 @@
 ---
 id: categorized-by-color
-title: Content that are categorized by color that conveys meaningful  information needs additional cues like text or icon
+title: Content that are categorized by color and that conveys meaningful information needs additional cues like text or icon
 tags:
   - Content
 reqs:
@@ -8,6 +8,7 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 25
 ---
 
 ## Description

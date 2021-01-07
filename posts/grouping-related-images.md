@@ -1,12 +1,13 @@
 ---
 id: grouping-related-images
-title: Make sure that a collection of related images are grouped together in an appropriate way
+title: Collections of related images must be grouped together in an appropriate way
 tags:
   - Images
 reqs:
   - 1.1.1 A
 roles:
   - Tech
+prio: 68
 ---
 
 ## Description

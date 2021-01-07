@@ -1,6 +1,6 @@
 ---
 id: full-keyboard-interactions
-title: Make sure that all functionality can be operated through a keyboard
+title: All functionality must be possible to operated through a keyboard
 tags:
   - Navigation
   - Interaction
@@ -9,6 +9,7 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 70
 ---
 
 ## Description
@@ -21,4 +22,4 @@ This does not mean that each individual control must be possible to use with a k
 
 ## Exceptions
 
-1. When the path of the user’s movement (not just endpoints) is essential to performing the task - like free hand drawing, flying a helicopter after a set course, etc.
+- When the path of the user’s movement (not just endpoints) is essential to performing the task - like free hand drawing, flying a helicopter after a set course, etc.

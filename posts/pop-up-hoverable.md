@@ -2,10 +2,8 @@
 id: pop-up-hoverable
 title: Any pop-up content that is shown on hover must also be hoverable
 tags:
-  - Content
   - Tooltips
   - Pop-overs
-  - Drop downs
 reqs:
   - 1.4.13 AA
 roles:

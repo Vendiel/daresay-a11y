@@ -1,6 +1,6 @@
 ---
 id: video-duration
-title: Any video, animation or gif that starts playing automatically for more than five seconds needs to be possible to pause, stop or hide
+title: Any video, animation or gif that starts playing automatically for more than 5 seconds needs to be possible to pause, stop or hide
 tags:
   - Gifs
   - Video
@@ -9,6 +9,7 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 22
 ---
 
 ## Description

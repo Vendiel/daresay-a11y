@@ -1,8 +1,7 @@
 ---
 id: avoid-sticky-regions
-title: Try to avoid using sticky regions
+title: Try to avoid using sticky regions (recommendation)
 tags:
-  - Content
   - Navigation
   - Layout
 reqs:

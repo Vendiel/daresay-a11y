@@ -1,18 +1,25 @@
 ---
 id: decorative-images-empty-alt
-title: Make sure that decorative images have empty alt attribute value
+title: Decorative images shall have an empty alt text
 tags:
   - Images
+  - Icons
+  - Gifs
 reqs:
   - 1.1.1 A
 roles:
   - Tech
+prio: 54
 ---
 
 ## Description
 
-Decorative images do not communicate information that is reqsuired to understand the website's content. Images can be deemed decorative if the information is already described in adjacent text or the images is added to make the site more visually attractive. Also valid for decorative images that are part of a text link.
+Decorative images are images that doesn't communicate meaningful information which is required to understand the website's content, like an image that is added to make the site more visually attractive. Images can also be deemed decorative if the information is already described in adjacent text.
 
-Must include an empty alt attribute (alt=""), otherwise a screen reader may announce the image's file namn and path instead.
+Set the alt attribute to empty (alt="") for decorative images, otherwise screen readers may announce the image's file namn and path as a fallback.
 
-Note: Decorative images implemented as CSS backgrounds will not be visible to screen readers.
+## Additional information
+
+This also applies to decorative images that are part of a text link.
+
+Decorative images implemented as CSS backgrounds will not be visible to screen readers.

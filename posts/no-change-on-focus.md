@@ -18,6 +18,7 @@ reqs:
   - 3.2.1 A
 roles:
   - Design
+prio: 15
 ---
 
 ## Description
@@ -30,6 +31,6 @@ When a control receives focus it shall not result in a substantial change of con
 - A new window is launched when a link receives focus.
 - Focus gets automatically moved to another control.
 
-## Additional Information
+## Additional information
 
 Showing additional things on hover, like a tooltip or a drop down menu is okay. These things are not changing the context (moving focus away to another place).

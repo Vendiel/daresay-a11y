@@ -1,12 +1,13 @@
 ---
 id: clear-status-messages
-title: Make sure that all users are aware of status messages such as errors messages, successful submissions and other important changes in content
+title: All users must be made aware of status messages such as successful submissions, errors messages and other important changes in content
 tags:
   - Forms
 reqs:
   - 4.1.3 AA
 roles:
   - Tech
+prio: 40
 ---
 
 ## Description

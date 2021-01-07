@@ -1,6 +1,6 @@
 ---
 id: image-text-alt-description
-title: For images containing text, make sure the alt description includes the image's text
+title: For images containing text, the alt text must includes the image's text
 tags:
   - Images
   - Text
@@ -9,6 +9,7 @@ reqs:
 roles:
   - Copy
   - Tech
+prio: 61
 ---
 
 ## Description

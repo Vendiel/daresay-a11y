@@ -1,22 +1,24 @@
 ---
 id: graphical-object-ratio
-title: Every graphical object that is needed for the user to understand the content must have a contrast ratio of at least 3:1 against adjacent color(s)
+title: Every graphical part of an image or icon (that is needed for the user to depict the graphic) must have a contrast ratio of at least 3:1 against adjacent colors
 tags:
   - Images
   - Icons
+  - Gifs
 reqs:
   - 1.4.11 AA
 roles:
   - Design
+prio: 56
 ---
 
 ## Description
 
-Not every graphical object needs to have contrast with its surroundings, only those parts that are reqsuired for a user to understand what the graphic is conveying. Identify them and ensure that there's enough contrast.
+Not every graphical part (object) of an image or icon needs to have 3:1 contrast with its surroundings - only the parts that are required for a user to understand what the graphic is conveying. Identify them and ensure that there's enough contrast.
 
 ## Examples
 
-- For simple graphics such as single-color icons the entire image is a graphical object and need to fulfil the reqsuirement.
+- For simple graphics such as single-color icons the entire image is a graphical object and need to fulfil the requirement.
 - For more complex graphics it's every line and shape of the image that is needed to make sense of what it's visualing, like the different lines in a graph.
 
 See examples: https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html

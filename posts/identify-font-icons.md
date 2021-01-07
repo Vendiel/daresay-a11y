@@ -1,6 +1,6 @@
 ---
 id: identify-font-icons
-title: Semantically identify a font icon
+title: Mark up font icons so all users can perceive them
 tags:
   - Markup
   - Icons
@@ -12,4 +12,4 @@ roles:
 
 ## Description
 
-Some low vision users override fonts (to better perceive content) and then font icons can turn into things that convey no meaning (star icon for favorite gets replaced by a square). By setting role="img" the font icon is not replaced. Also add an aria-label for the font icon to be read correctly.
+Some low vision users override fonts to better perceive content, which can turn font icons into things that convey no meaning, for instance a star icon for favorite gets replaced by a square. By setting role="img" the font icon will not be replaced. Also add an aria-label for the font icon to be read correctly.

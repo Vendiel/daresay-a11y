@@ -1,6 +1,6 @@
 ---
 id: horizontal-scrolling
-title: Make sure labels and controls fit without horizontal scrolling
+title: Labels and controls must fit without horizontal scrolling
 tags:
   - Layout
   - Forms
@@ -9,6 +9,7 @@ reqs:
 roles:
   - Tech
   - Design
+prio: 32
 ---
 
 ## Description

@@ -83,6 +83,7 @@ export const getSortedPostsData = (): AllMetaData => {
         tags: string[];
         reqs: string[];
         roles: string[];
+        prio: number;
       }),
     };
   });
@@ -123,6 +124,7 @@ export async function getPostData(id: string) {
       tags: string[];
       reqs: string[];
       roles: string[];
+      prio: number;
     }),
   };
 }

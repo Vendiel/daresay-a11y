@@ -1,12 +1,17 @@
 ---
 id: hint-text
-title: Give instructions (hint text) for controls that reqsuire specific format or rules
+title: Give instructions (hint text) for controls that require specific format or rules
 tags:
   - Forms
+  - Controls
+  - Text fields
+  - Date pickers
+  - File select fields
 reqs:
   - 3.3.2 A
 roles:
   - Design
+prio: 34
 ---
 
 ## Description

@@ -1,6 +1,6 @@
 ---
 id: text-not-images
-title: Use text rather than images of text
+title: Use text, not images of text
 tags:
   - Images
   - Text
@@ -9,6 +9,7 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 60
 ---
 
 ## Description
@@ -21,4 +22,6 @@ This is important so people can adjust the representation of the text to fit the
 2. When the author doesn't have the right to redistribute.
 3. Graphs, diagrams and screenshots that visually convey important info through more than just text.
 
-Note. Also okay to use text in image if the text still can be customized by the user (can be possible in vector formats).
+## Additional information
+
+It's okay to use text in image if the text still can be customized by the user (can be possible with vector formats).

@@ -1,6 +1,6 @@
 ---
 id: clear-errors
-title: Make it easy for all users to know that an error has occured and to identify it
+title: It must be possible for all users to know that an error has occured and to identify it
 tags:
   - Forms
 reqs:
@@ -8,6 +8,7 @@ reqs:
 roles:
   - Tech
   - Design
+prio: 42
 ---
 
 ## Description
@@ -26,6 +27,5 @@ To be extra helpful it's recommended to help users navigate to the fields where 
 
 - Use aria-invalid if it's not possible to programmatically associate specific error description with the failed field.
 - aria-live can be used to notify users when an error occur.
-
 - Use aria-describedby to associate the error text with the field.
 - Could also use aria-live or role=“alert” when using client-side validation.

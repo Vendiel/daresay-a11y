@@ -65,7 +65,7 @@ export const ChecklistPage = (props: Props) => {
         <h1>Checklist</h1>
         <div>
           <RoleFilter
-            header="Choose role"
+            header="Roles"
             radiobuttonStates={allCheckboxStates.rolesRadiobuttonStates} //skickar ner roles checked states
             onStateChanged={(rolesStates) => {
               const allCheckboxStatesCopy: AllCheckboxStates = JSON.parse(JSON.stringify(allCheckboxStates));

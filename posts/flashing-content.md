@@ -2,12 +2,14 @@
 id: flashing-content
 title: There mustn’t be any content that flashes more than 3 times within any one-second period
 tags:
+  - Content
   - Gifs
   - Video
 reqs:
   - 2.3.1 A
 roles:
   - Design
+prio: 22
 ---
 
 ## Description

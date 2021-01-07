@@ -8,6 +8,7 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 20
 ---
 
 ## Description
@@ -16,7 +17,9 @@ Content that starts moving or blinking automatically in parallell with other con
 
 The recommendation is to avoid moving, blinking, scrolling content if possible, but if used and if it lasts for more than five seconds, then there must be a mechanism for users to stop it. It could be an interactive control like a pause/restart button or by using keyboard shortcuts like the Escape key.
 
-Example of moving, blinking or scrolling content are carousels, video, background video, synchronised media presentations, real-time games, scrolling stock tickers or news banner, animated “On sale" image.
+## Examples
+
+Example of moving, blinking or scrolling content are carousels, video, gifs, background video, synchronised media presentations, real-time games, scrolling stock tickers or news banner, animated “On sale" image.
 
 ## Exceptions
 
@@ -25,7 +28,7 @@ Example of moving, blinking or scrolling content are carousels, video, backgroun
 
 ## Additional information
 
-Make sure that any blinking content isn’t actually flashing. See guideline about flashing content.
+Make sure that any blinking content isn’t actually flashing. See [guideline about flashing content](flashing-content).
 
 If you pause content, consider what kind of content that is displayed to set an appropriate behavior for what should happen when the user unpauses.
 

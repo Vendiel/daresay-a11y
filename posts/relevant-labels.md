@@ -3,7 +3,6 @@ id: relevant-labels
 title: Every control must have a relevant and correctly marked up label that is associated with the control
 tags:
   - Controls
-  - Forms
   - Text fields
   - Radio buttons
   - Checkboxes
@@ -17,6 +16,7 @@ reqs:
 roles:
   - Tech
   - Design
+prio: 10
 ---
 
 ## Description

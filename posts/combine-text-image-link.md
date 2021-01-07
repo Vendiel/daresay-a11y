@@ -1,6 +1,6 @@
 ---
 id: combine-text-image-link
-title: Make sure that image and text link that goes to the same destination is combined into a single link, rather than creating separate links for each element
+title: When using both image and text for linking to a destination,  they should be combined into a single link
 tags:
   - Images
   - Links
@@ -9,6 +9,7 @@ reqs:
   - 2.4.4 A
 roles:
   - Tech
+prio: 65
 ---
 
 ## Description

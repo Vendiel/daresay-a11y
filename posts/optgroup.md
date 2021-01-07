@@ -1,14 +1,14 @@
 ---
 id: optgroup
-title: If you need to group options in a selection list/drop down, use optgroup
+title: Use optgroup when you need to group options in a drop down
 tags:
-  - Forms
   - Drop downs
 reqs:
   - 1.3.1 A
 roles:
   - Tech
   - Design
+prio: 5
 ---
 
 ## Description

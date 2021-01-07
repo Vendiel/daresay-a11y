@@ -1,6 +1,6 @@
 ---
 id: mandatory-optional
-title: It's clearly labeled which fields are mandatory and optional
+title: It must be obvious which fields are mandatory and which are optional
 tags:
   - Forms
 reqs:
@@ -8,6 +8,7 @@ reqs:
   - 1.4.1 A
 roles:
   - Design
+prio: 30
 ---
 
 ## Description

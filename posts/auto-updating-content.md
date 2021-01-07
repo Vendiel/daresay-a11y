@@ -1,6 +1,6 @@
 ---
 id: auto-updating-content
-title: Content that starts auto-updating automatically must be possible to be paused, stopped, or hidden by the user or that the user can manually control the freqsuency of the updates
+title: Content that starts auto-updating automatically must be possible to be paused, stopped, or hidden by the user or that the user can manually control the frequency of the updates
 tags:
   - Content
 reqs:
@@ -8,6 +8,7 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 21
 ---
 
 ## Description

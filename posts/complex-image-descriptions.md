@@ -1,6 +1,6 @@
 ---
 id: complex-image-descriptions
-title: Make sure that complex images, like infographics, charts, diagrams, graphs and maps, have (except for an alt attribute) a long description in nearby text
+title: Complex images, like infographics, charts, maps, etc must have an alt text and long description
 tags:
   - Images
 reqs:
@@ -8,9 +8,12 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 51
 ---
 
 ## Description
+
+Make sure that complex images, like infographics, charts, diagrams, graphs and maps, have an alt attribute and a long description in nearby text.
 
 Can be done in different ways.
 

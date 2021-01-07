@@ -1,6 +1,6 @@
 ---
 id: captcha
-title: Make sure there are more than one way for users to use a CAPTCHA
+title: If a CAPTCHA is used, at least two versions must be available to choose from
 tags:
   - Forms
 reqs:
@@ -8,6 +8,7 @@ reqs:
 roles:
   - Tech
   - Design
+prio: 37
 ---
 
 ## Description

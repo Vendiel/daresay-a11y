@@ -1,6 +1,6 @@
 ---
 id: interactive-image-maps
-title: For interactive image maps make sure both the image and the different area elements has text alternatives
+title: For interactive image maps make sure both the image and the different area elements have alt texts
 tags:
   - Images
 reqs:
@@ -8,8 +8,9 @@ reqs:
   - 2.4.4 A
 roles:
   - Tech
+prio: 69
 ---
 
-## Additional Information
+## Additional information
 
 See: https://www.w3.org/WAI/tutorials/images/imagemap/

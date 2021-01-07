@@ -1,12 +1,13 @@
 ---
 id: single-point-actions
-title: Make sure that any functionality that can be performed with complex finger movements, also is possible with simple, single-point actions
+title: Any functionality that can be performed with complex finger movements must also be possible to do with simple, single-point actions
 tags:
   - Interaction
 reqs:
   - 2.5.1 A
 roles:
   - Design
+prio: 74
 ---
 
 ## Description

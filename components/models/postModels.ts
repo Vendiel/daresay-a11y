@@ -4,6 +4,7 @@ export interface MetaData {
   reqs: string[];
   roles: string[];
   tags: string[];
+  prio: number;
 }
 
 export interface AllMetaData {

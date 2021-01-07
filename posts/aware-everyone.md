@@ -1,6 +1,6 @@
 ---
 id: aware-everyone
-title: Make sure that information that’s added to another part of the UI, that doesn’t have focus, is made aware for everyone
+title: Content that is added to another part of the UI, that doesn't get focus, must be made aware for everyone
 tags:
   - Content
 reqs:
@@ -8,6 +8,7 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 23
 ---
 
 ## Description

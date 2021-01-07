@@ -1,12 +1,14 @@
 ---
 id: aria-describedby
-title: Make sure that any hint text that is placed between the label and control has the role of aria-describedby
+title: The hint text should have the role of aria-describedby
 tags:
+  - Forms
   - Markup
 reqs:
   - 2.5.3 A
 roles:
   - Tech
+prio: 35
 ---
 
 ## Description

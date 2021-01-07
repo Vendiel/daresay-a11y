@@ -2,7 +2,6 @@
 id: fieldset-legend-checkboxes-radiobuttons
 title: Related checkboxes and radiobuttons should be grouped with fieldset-legend
 tags:
-  - Forms
   - Checkboxes
   - Radio buttons
 reqs:
@@ -10,6 +9,7 @@ reqs:
 roles:
   - Tech
   - Design
+prio: 4
 ---
 
 ## Description

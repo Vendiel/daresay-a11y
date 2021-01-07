@@ -21,12 +21,21 @@ const postAlreadyAdded = (post: MetaData, filteredPosts): boolean => {
   }
 };
 
+const sortPosts = (filteredPosts) => {
+  filteredPosts.sort(function (a, b) {
+    const atemp = a.prio || 999;
+    const btemp = b.prio || 999;
+    return atemp - btemp;
+  });
+};
+
 export const FilteredList = (props: Props) => {
   const { allMetaData, filterState } = props;
   const [visiblePosts, setVisiblePosts] = useState([]);
 
   useEffect(() => {
     const allPosts = allMetaData.posts;
+
     let filteredPosts = [];
     let anyTagIsChecked = false;
     let anyRoleIsChecked = false;
@@ -103,6 +112,8 @@ export const FilteredList = (props: Props) => {
       });
     }
 
+    sortPosts(filteredPosts);
+    console.log(filteredPosts);
     setVisiblePosts(filteredPosts);
   }, [filterState]); //useEffect lyssnar på filterState
 
