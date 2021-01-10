@@ -1,5 +1,5 @@
 .mainHeader {
-  padding: var(--spacing-3x);
+  padding: var(--spacing-2x);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

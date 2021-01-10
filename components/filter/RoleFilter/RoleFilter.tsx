@@ -15,35 +15,36 @@ export const RoleFilter = (props: Props) => {
     <>
       <fieldset className={styles.card}>
         <legend>{header}</legend>
+        <div className={styles.radiogroup}>
+          {radiobuttonStates.map((item: FilterState) => {
+            const roleName = item.tagName.toLowerCase();
 
-        {radiobuttonStates.map((item: FilterState) => {
-          const roleName = item.tagName.toLowerCase();
+            return (
+              <FilterRadiobutton
+                label={item.tagName}
+                id={roleName}
+                name={"roles"}
+                value={roleName}
+                checked={item.checked}
+                onChange={() => {
+                  //pratar uppåt med föräldern..
+                  const resultIndex = radiobuttonStates.findIndex((currentItem) => {
+                    return currentItem.tagName === item.tagName;
+                  });
+                  const radiobuttonStateCopy: Array<FilterState> = JSON.parse(
+                    JSON.stringify(radiobuttonStates)
+                  );
+                  radiobuttonStateCopy.forEach((element) => {
+                    element.checked = false;
+                  });
+                  radiobuttonStateCopy[resultIndex].checked = true; //den man petar på blir true
 
-          return (
-            <FilterRadiobutton
-              label={item.tagName}
-              id={roleName}
-              name={"roles"}
-              value={roleName}
-              checked={item.checked}
-              onChange={() => {
-                //pratar uppåt med föräldern..
-                const resultIndex = radiobuttonStates.findIndex((currentItem) => {
-                  return currentItem.tagName === item.tagName;
-                });
-                const radiobuttonStateCopy: Array<FilterState> = JSON.parse(
-                  JSON.stringify(radiobuttonStates)
-                );
-                radiobuttonStateCopy.forEach((element) => {
-                  element.checked = false;
-                });
-                radiobuttonStateCopy[resultIndex].checked = true; //den man petar på blir true
-
-                onStateChanged(radiobuttonStateCopy); // Prata uppåt med föräldern.. :)
-              }}
-            />
-          );
-        })}
+                  onStateChanged(radiobuttonStateCopy); // Prata uppåt med föräldern.. :)
+                }}
+              />
+            );
+          })}
+        </div>
       </fieldset>
     </>
   );

@@ -6,7 +6,7 @@ export const Nav = () => {
     <header className={styles.mainHeader}>
       <Link href="/">
         <a>
-          <img src="/images/DARESAY_darkgrey.svg" alt="Daresay accessibility checklist home" />
+          <img src="/images/DARESAY.png" alt="Go to Daresay accessibility checklist home" />
         </a>
       </Link>
       <span>Accessibility checklist</span>

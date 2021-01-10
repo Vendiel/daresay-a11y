@@ -18,7 +18,7 @@ export const FilterSidebar = (props: Props) => {
         onStateChanged={(tagsStates) => {
           const allCheckboxStatesCopy: AllCheckboxStates = JSON.parse(JSON.stringify(allCheckboxStates));
           allCheckboxStatesCopy.tagsCheckboxStates = tagsStates;
-          onCheckboxChanged(allCheckboxStatesCopy); //pratar uppåt med föräldern?
+          onCheckboxChanged(allCheckboxStatesCopy);
         }}
       />
     </section>

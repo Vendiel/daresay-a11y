@@ -1,10 +1,10 @@
-import { CheckboxState } from "../../../pages/checklist";
+import { FilterState } from "../../../pages/checklist";
 import { FilterCheckbox } from "../FilterCheckbox/FilterCheckbox";
 import styles from "./FilterGroup.module.css";
 
 interface Props {
-  checkboxStates: Array<CheckboxState>;
-  onStateChanged: (checkboxStates: Array<CheckboxState>) => void;
+  checkboxStates: Array<FilterState>;
+  onStateChanged: (checkboxStates: Array<FilterState>) => void;
   header: string;
 }
 
@@ -16,7 +16,7 @@ export const FilterGroup = (props: Props) => {
       <fieldset className={styles.card}>
         <legend>{header}</legend>
         <ul>
-          {checkboxStates.map((item: CheckboxState) => {
+          {checkboxStates.map((item: FilterState) => {
             return (
               <FilterCheckbox
                 item={item.tagName}
@@ -27,7 +27,7 @@ export const FilterGroup = (props: Props) => {
                   });
                   const checkboxStateCopy = JSON.parse(JSON.stringify(checkboxStates));
                   checkboxStateCopy[resultIndex].checked = !checkboxStateCopy[resultIndex].checked; // Toggle value by using ! operator.
-                  onStateChanged(checkboxStateCopy); // Prata uppåt med föräldern.. :)
+                  onStateChanged(checkboxStateCopy); // Prata uppåt med föräldern..
                 }}
               />
             );

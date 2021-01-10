@@ -1,4 +1,4 @@
-import { AllCheckboxStates, FilterState } from "../../../pages/checklist";
+import { FilterState } from "../../../pages/checklist";
 import { FilterCheckbox } from "../FilterCheckbox/FilterCheckbox";
 import styles from "./CategoryFilter.module.css";
 
