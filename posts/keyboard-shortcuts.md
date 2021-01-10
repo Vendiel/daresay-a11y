@@ -1,6 +1,6 @@
 ---
 id: keyboard-shortcuts
-title: If you implement custom keyboard shortcuts for your content make sure they can either be turned off, remapped or are only active when a specific control has focus
+title: Custom keyboard shortcuts must be possible to turn off, remap or only be active when a specific control has focus
 tags:
   - Navigation
 reqs:
@@ -8,6 +8,7 @@ reqs:
 roles:
   - Tech
   - Design
+prio: 17
 ---
 
 ## Description

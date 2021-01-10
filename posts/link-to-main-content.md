@@ -1,6 +1,6 @@
 ---
 id: link-to-main-content
-title: Provide a link to skip to the main content as the first focusable link on the page.
+title: Provide a link to skip to the main content as the first focusable link on the page
 tags:
   - Navigation
 reqs:
@@ -8,6 +8,7 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 11
 ---
 
 ## Description

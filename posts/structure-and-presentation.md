@@ -11,4 +11,4 @@ roles:
 
 ## Description
 
-Structural features in HTML, presentational features in CSS.
+Structural features in HTML, presentational features in CSS. For instance, you should use styling properties instead of using whitespace characters for layout purposes.

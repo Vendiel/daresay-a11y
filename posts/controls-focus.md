@@ -1,14 +1,15 @@
 ---
-id: components-focus
-title: Make sure that components receives focus in a way that makes sense
+id: controls-focus
+title: Controls must receive focus in a way that makes sense when navigating with a keyboard
 tags:
-  - Structure
   - Navigation
+  - Layout
 reqs:
   - 2.4.3 A
 roles:
   - Design
   - Tech
+prio: 15
 ---
 
 ## Description

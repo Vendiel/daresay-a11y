@@ -1,12 +1,13 @@
 ---
 id: more-ways-navigation
-title: Provide more than one way to navigate to the different pages of the site.
+title: There must be more than one way to navigate to the different pages of the site
 tags:
   - Navigation
 reqs:
   - 2.4.5 AA
 roles:
   - Design
+prio: 9
 ---
 
 ## Description

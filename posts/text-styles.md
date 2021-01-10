@@ -1,6 +1,6 @@
 ---
 id: text-styles
-title: Make sure that users can change text styles without loss of content or functionality
+title: It must be possible to change text styles without loss of content or functionality
 tags:
   - Text
   - Layout
@@ -9,6 +9,7 @@ reqs:
 roles:
   - Tech
   - Design
+prio: 22
 ---
 
 ## Description

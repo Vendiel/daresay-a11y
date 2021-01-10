@@ -16,13 +16,13 @@ Use elements according to their meaning, not because of the way they appear visu
 
 ## Examples
 
-- Use h1, h2, h3, etc for headings.
+- Use h1, h2, h3, etc for headings (if it's not possible to use native heading mark-up due to legacy code, use role="heading").
 - Use a element for links.
 - Group navigation links with nav.
 - Use button element for buttons.
 - Use labels for input fields.
 - Group related controls in forms.
-- Use tables for tabular data.
+- Use tables for tabular data, never for layout purposes.
 - Use the appropriate list type for lists (ordered, unorder, definition).
 - Avoid emulating links and buttons by using div, span etc.
 - Emphasize text correctly.

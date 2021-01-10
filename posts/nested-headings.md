@@ -1,15 +1,15 @@
 ---
 id: nested-headings
-title: Organize pages using properly nested HTML headings
+title: Structure pages using properly nested HTML headings
 tags:
   - Layout
-  - Structure
 reqs:
   - 1.3.1 A
   - 2.4.1 A
 roles:
   - Design
   - Tech
+prio: 12
 ---
 
 ## Description

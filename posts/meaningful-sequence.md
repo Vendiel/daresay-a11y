@@ -1,6 +1,6 @@
 ---
 id: meaningful-sequence
-title: Make sure the content appear in a same meaningful sequence visually and in the source file
+title: Content shall appear in the same meaningful sequence visually and in the source file
 tags:
   - Layout
 reqs:
@@ -8,6 +8,7 @@ reqs:
 roles:
   - Tech
   - Design
+prio: 20
 ---
 
 ## Description
@@ -16,6 +17,6 @@ Turn off style sheets and make sure the content is presented in the same order a
 
 Make sure you aren't duplicating elements/sections.
 
-## Additional infromation
+## Additional information
 
 There is another requirement (2.4.3) that specifically targets components and tab order (found under Navigation).

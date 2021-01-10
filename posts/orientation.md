@@ -8,13 +8,14 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 6
 ---
 
 ## Description
 
 All users don’t have the possibility to turn their device. Some users have to choose a mode (either portrait or landscape) and always have it in that mode, for example a wheelchair user that mount their mobile devices in a specific orientation.
 
-This reqsuirement also implies that all content and functionality shall be available in all orientations.
+This requirement also implies that all content and functionality shall be available in all orientations.
 
 ### What to do
 

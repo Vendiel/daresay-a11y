@@ -1,6 +1,6 @@
 ---
 id: full-keyboard-interactions
-title: All functionality must be possible to operated through a keyboard
+title: All functionality must be possible to operate through a keyboard
 tags:
   - Navigation
   - Interaction
@@ -9,7 +9,7 @@ reqs:
 roles:
   - Design
   - Tech
-prio: 70
+prio: 14
 ---
 
 ## Description

@@ -1,13 +1,14 @@
 ---
 id: nav-links-same-order
-title: Ensure that the links belonging to navigation always occur in the same relative order on each page
+title: Links belonging to navigation must always occur in the same relative order on each page
 tags:
-  - Structure
   - Navigation
+  - Layout
 reqs:
   - 3.2.3 AA
 roles:
   - Tech
+prio: 10
 ---
 
 ## Description

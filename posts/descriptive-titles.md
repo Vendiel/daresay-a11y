@@ -1,9 +1,9 @@
 ---
 id: descriptive-titles
-title: Provide clear & descriptive titles to web pages so that they are understood easily by all users
+title: All pages should have unique and descriptive titles
 tags:
-  - Structure
   - Text
+  - Markup
 reqs:
   - 2.4.2 A
 roles:
