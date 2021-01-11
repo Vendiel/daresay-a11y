@@ -1,6 +1,6 @@
 ---
 id: audio-only
-title: Pre-recorded audio (without video) that contain essential information needs to have a transcript
+title: Pre-recorded audio (without video) that contains essential information needs to have a transcript
 tags:
   - Audio
 reqs:
@@ -10,7 +10,7 @@ roles:
   - Design
   - Tech
   - Copy
-prio: 101
+prio: 106
 ---
 
 ## Description

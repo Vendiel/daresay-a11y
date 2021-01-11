@@ -1,6 +1,6 @@
 ---
 id: audio-for-max-3-sec
-title: If audio or video (with audio) plays automatically, it should last less than three seconds or there must be a way to pause/stop/mute it
+title: If audio or video (with audio) plays automatically, it should last less than three seconds or there must be a way to pause, stop or mute it
 tags:
   - Audio
   - Video
@@ -9,7 +9,7 @@ reqs:
 roles:
   - Design
   - Tech
-prio: 100
+prio: 105
 ---
 
 ## Description

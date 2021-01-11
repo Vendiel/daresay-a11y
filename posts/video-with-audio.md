@@ -1,6 +1,6 @@
 ---
 id: video-with-audio
-title: For pre-recorded video (with audio), synced captions should be available as well as an audio description
+title: For pre-recorded video (with audio), synced captions and audio description should be provided
 tags:
   - Video
 reqs:
@@ -12,6 +12,7 @@ roles:
   - Design
   - Tech
   - Copy
+prio: 112
 ---
 
 ## Description
