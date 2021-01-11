@@ -10,7 +10,7 @@ reqs:
 roles:
   - Copy
   - Tech
-prio: 50
+prio: 55
 ---
 
 ## Description

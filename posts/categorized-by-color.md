@@ -8,7 +8,7 @@ reqs:
 roles:
   - Design
   - Tech
-prio: 25
+prio: 52
 ---
 
 ## Description

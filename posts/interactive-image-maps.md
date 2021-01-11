@@ -8,7 +8,7 @@ reqs:
   - 2.4.4 A
 roles:
   - Tech
-prio: 69
+prio: 67
 ---
 
 ## Additional information

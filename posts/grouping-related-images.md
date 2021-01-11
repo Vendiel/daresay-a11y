@@ -7,7 +7,7 @@ reqs:
   - 1.1.1 A
 roles:
   - Tech
-prio: 68
+prio: 64
 ---
 
 ## Description

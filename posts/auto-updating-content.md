@@ -8,14 +8,14 @@ reqs:
 roles:
   - Design
   - Tech
-prio: 21
+prio: 70
 ---
 
 ## Description
 
 Content that start auto-updating automatically in parallell with other content can be a barrier for anyone who has trouble reading text quickly as well as anyone who has trouble tracking moving objects. It can also cause problems for screen readers.
 
-If content starts auto-updating automatically there must be a mechanism to pause, stop, hide or change freqsuency. It could be an interactive control like a pause/restart button or by using keyboard shortcuts like the Escape key. It could also be solved with a checkbox where the users choose if they want the information to be updated automatically or manually (where the manual alternative reveals a Refresh button).
+If content starts auto-updating automatically there must be a mechanism to pause, stop, hide or change frequency. It could be an interactive control like a pause/restart button or by using keyboard shortcuts like the Escape key. It could also be solved with a checkbox where the users choose if they want the information to be updated automatically or manually (where the manual alternative reveals a Refresh button).
 
 Examples of auto-updating content are automatically updated weather information, stock price updates, auto-advancing presentations, chat messages and twitter feeds, displaying new participants to an online call.
 
