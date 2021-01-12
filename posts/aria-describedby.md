@@ -1,14 +1,18 @@
 ---
 id: aria-describedby
-title: The hint text should have the role of aria-describedby
+title: The hint text for controls should have the role of aria-describedby
 tags:
   - Forms
+  - Controls
+  - Text fields
+  - Date pickers
+  - File select fields
   - Markup
 reqs:
   - 2.5.3 A
 roles:
   - Tech
-prio: 35
+prio: 210
 ---
 
 ## Description

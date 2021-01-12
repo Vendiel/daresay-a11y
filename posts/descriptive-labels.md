@@ -1,6 +1,6 @@
 ---
 id: descriptive-labels
-title: Labels that are used should be clear and descriptive
+title: Labels should be clear and descriptive
 tags:
   - Text
 reqs:
@@ -8,6 +8,7 @@ reqs:
   - 3.3.2 A
 roles:
   - Copy
+prio: 126
 ---
 
 ## Description

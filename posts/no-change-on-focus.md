@@ -1,6 +1,6 @@
 ---
 id: no-change-on-focus
-title: When a control receives focus no unexpected change in context shall occur
+title: No expected change in context shall happen when a control receives focus
 tags:
   - Forms
   - Controls
@@ -18,7 +18,7 @@ reqs:
   - 3.2.1 A
 roles:
   - Design
-prio: 15
+prio: 206
 ---
 
 ## Description

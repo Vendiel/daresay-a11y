@@ -1,12 +1,13 @@
 ---
 id: link-styling
-title: Ensure that links are recognizable with additional cues other than color
+title: Links must be recognizable with additional cues other than color
 tags:
   - Links
 reqs:
   - 1.4.1 A
 roles:
   - Design
+prio: 130
 ---
 
 ## Description

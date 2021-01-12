@@ -1,6 +1,6 @@
 ---
 id: form-time-outs
-title: If the form has a time-out, then it must be possible to turn it off, adjust or extend it
+title: If a form has a time-out then it must be possible to turn it off, adjust or extend it
 tags:
   - Forms
 reqs:
@@ -8,7 +8,7 @@ reqs:
 roles:
   - Tech
   - Design
-prio: 36
+prio: 180
 ---
 
 ## Description

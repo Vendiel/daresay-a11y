@@ -1,6 +1,6 @@
 ---
 id: emphasize-text
-title: Emphasize text correctly
+title: Emphasize text appropriately
 tags:
   - Markup
   - Text
@@ -8,6 +8,7 @@ reqs:
   - 1.3.1 A
 roles:
   - Tech
+prio: 120
 ---
 
 ## Description

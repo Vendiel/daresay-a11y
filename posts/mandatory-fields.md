@@ -3,11 +3,12 @@ id: mandatory-fields
 title: Mark mandatory fields with aria-required=“true”
 tags:
   - Forms
+  - Markup
 reqs:
   - 3.3.3 A
 roles:
   - Tech
-prio: 31
+prio: 190
 ---
 
 ## Description

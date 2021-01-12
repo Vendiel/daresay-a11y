@@ -1,12 +1,13 @@
 ---
 id: descriptive-instructions
-title: Make sure available instructions that informs users of how to operate content/controls include several sensory characteristics
+title: Instructions that informs on how to operate content or controls must include several sensory characteristics
 tags:
   - Text
 reqs:
   - 1.3.3 A
 roles:
   - Copy
+prio: 128
 ---
 
 ## Description

@@ -1,6 +1,6 @@
 ---
 id: descriptive-titles
-title: All pages should have unique and descriptive titles
+title: Pages should have unique and descriptive titles
 tags:
   - Text
   - Markup
@@ -8,6 +8,7 @@ reqs:
   - 2.4.2 A
 roles:
   - Copy
+prio: 124
 ---
 
 ## Description

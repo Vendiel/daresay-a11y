@@ -1,14 +1,14 @@
 ---
 id: link-text
-title: Provide a link text so that the purpose of the link can be determined by the text alone or by the link text and its context
+title: Link texts should be clear and meaningful so the purpose can be determined by the text alone or by the link text and its context
 tags:
   - Links
 reqs:
   - 2.4.4 A
 roles:
   - Tech
-  - Design
   - Copy
+prio: 131
 ---
 
 ## Description

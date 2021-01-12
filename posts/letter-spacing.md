@@ -1,6 +1,6 @@
 ---
 id: letter-spacing
-title: Use letter-spacing in CSS instead of adding spaces in words
+title: Use letter-spacing properties instead of adding blank spaces
 tags:
   - Text
   - Markup
@@ -8,6 +8,7 @@ reqs:
   - 1.3.2 A
 roles:
   - Tech
+prio: 121
 ---
 
 ## Description

@@ -3,13 +3,13 @@ id: horizontal-scrolling
 title: Labels and controls must fit without horizontal scrolling
 tags:
   - Layout
-  - Forms
+  - Controls
 reqs:
   - 1.4.10 AA
 roles:
   - Tech
   - Design
-prio: 23
+prio: 201
 ---
 
 ## Description

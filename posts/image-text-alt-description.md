@@ -3,7 +3,6 @@ id: image-text-alt-description
 title: For images containing text, the alt text must includes the image's text
 tags:
   - Images
-  - Text
 reqs:
   - 1.1.1 A
 roles:

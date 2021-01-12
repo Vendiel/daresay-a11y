@@ -1,6 +1,6 @@
 ---
 id: optgroup
-title: Use optgroup when you need to group options in a drop down
+title: Use optgroup when grouping options in a drop down
 tags:
   - Drop downs
 reqs:
@@ -8,7 +8,7 @@ reqs:
 roles:
   - Tech
   - Design
-prio: 5
+prio: 199
 ---
 
 ## Description

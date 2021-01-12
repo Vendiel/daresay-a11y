@@ -8,14 +8,14 @@ reqs:
 roles:
   - Tech
   - Design
-prio: 35
+prio: 188
 ---
 
 ## Description
 
-A group of controls that are logically related, like for instance controls for entering a users's adress, can be grouped with fieldset-legend.
+A group of controls that are logically related can be grouped with fieldset-legend, for example controls for entering a users's adress.
 
-For those occasions where fieldset-legend is not an option, then consider grouping the controls in a div with role=""group"" together with aria-labeledby.
+For those occasions where fieldset-legend is not an option, then consider grouping the controls in a div with role="group" together with aria-labeledby.
 
 ## Additional Information
 

@@ -3,7 +3,6 @@ id: text-on-image-contrast
 title: For images containing text, make sure it fulfills the contrast requirement for text
 tags:
   - Images
-  - Text
 reqs:
   - 1.4.3 AA
 roles:

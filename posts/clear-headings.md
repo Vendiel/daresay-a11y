@@ -1,12 +1,13 @@
 ---
 id: clear-headings
-title: Headings that are used should be clear and descriptive
+title: Headings should be clear and descriptive
 tags:
   - Text
 reqs:
   - 2.4.6 AA
 roles:
   - Copy
+prio: 125
 ---
 
 ## Description

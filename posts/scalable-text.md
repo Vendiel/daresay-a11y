@@ -1,12 +1,13 @@
 ---
 id: scalable-text
-title: Ensure that text is scalable
+title: Make text scalable
 tags:
   - Text
 reqs:
   - 1.4.4 AA
 roles:
   - Tech
+prio: 20
 ---
 
 ## Description

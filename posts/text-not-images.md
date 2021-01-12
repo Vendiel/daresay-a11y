@@ -3,7 +3,6 @@ id: text-not-images
 title: Use text, not images of text
 tags:
   - Images
-  - Text
 reqs:
   - 1.4.5 AA
 roles:

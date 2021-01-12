@@ -1,18 +1,18 @@
 ---
 id: success-states
-title: Success states must be recognizable with additional cues other than color
+title: Successful states must be recognizable with additional cues other than color
 tags:
   - Forms
 reqs:
   - 1.4.1 A
 roles:
   - Design
-prio: 39
+prio: 183
 ---
 
 ## Description
 
-Success states must include a non-color way to be identified, like text or an icon.
+Successful states must include a non-color way to be identified, like text or an icon.
 
 ## Examples
 

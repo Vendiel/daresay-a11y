@@ -1,6 +1,6 @@
 ---
 id: error-description
-title: Any error that occurs when filling in a form must be decribed in text
+title: Any error that occurs when filling in a form must be described in text
 tags:
   - Forms
 reqs:
@@ -8,7 +8,7 @@ reqs:
   - 1.4.1 A
 roles:
   - Design
-prio: 41
+prio: 185
 ---
 
 ## Description

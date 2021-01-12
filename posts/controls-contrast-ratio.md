@@ -1,6 +1,6 @@
 ---
 id: controls-contrast-ratio
-title: An active control must have a contrast ratio of at least 3:1 against adjacent color(s)
+title: Active controls must have a contrast ratio of at least 3:1 against adjacent colors
 tags:
   - Controls
   - Buttons
@@ -17,7 +17,7 @@ reqs:
   - 1.4.11 AA
 roles:
   - Design
-prio: 13
+prio: 204
 ---
 
 ## Description
@@ -31,7 +31,7 @@ Note. It's not needed to have a 3:1 contrast between the different states of the
 1. If the component is inactive (disabled).
 2. If the visual appearance of the control is decided by the user agent (browser) and hasn't been modified.
 
-Note. This reqsuirement does not imply that controls must have a visual boundary indicating the hit area and that visual boundary must fulfill the 3:1 contrast - that's only needed if the visual boundry is the only was to visually identify the control.
+Note. This requirement does not imply that controls must have a visual boundary indicating the hit area and that visual boundary must fulfill the 3:1 contrast - that's only needed if the visual boundry is the only was to visually identify the control.
 
 ## Examples
 

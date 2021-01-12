@@ -1,6 +1,6 @@
 ---
 id: error-details
-title: Any error message should be as specific as possible and suggest how the user can recover from the error
+title: Error messages should be specific and suggest how users can recover from the error
 tags:
   - Forms
 reqs:
@@ -8,12 +8,12 @@ reqs:
   - 3.3.3 AA
 roles:
   - Copy
-prio: 43
+prio: 186
 ---
 
 ## Description
 
-Describe the nature of the problem, don’t be generic. Provide simple and detailed instructions on how they can solve the problem.
+Describe the nature of the problem, don’t be generic. Provide simple and detailed instructions on how the user can solve the problem.
 
 If the user must follow certain format or values, then the text should describe this, suggest the allowed value that is most similar to the one entered or give a descriptive example.
 

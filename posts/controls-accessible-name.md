@@ -1,6 +1,6 @@
 ---
 id: controls-accessible-name
-title: Controls with a visible label (either as text or image) must have a matching accessible name
+title: Controls with a visible label (as text or image) must have a matching accessible name
 tags:
   - Controls
   - Buttons
@@ -16,7 +16,7 @@ reqs:
   - 2.5.3 A
 roles:
   - Tech
-prio: 11
+prio: 203
 ---
 
 ## Description

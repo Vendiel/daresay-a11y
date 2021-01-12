@@ -1,13 +1,13 @@
 ---
 id: custom-control
-title: A custom control must give the right information to assistive technology
+title: Custom controls must give the right information to assistive technology
 tags:
   - Controls
 reqs:
   - 4.1.2 A
 roles:
   - Tech
-prio: 19
+prio: 211
 ---
 
 ## Description

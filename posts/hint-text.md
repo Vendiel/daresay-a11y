@@ -1,6 +1,6 @@
 ---
 id: hint-text
-title: Give instructions (hint text) for controls that require specific format or rules
+title: Controls that require specific format or rules shall have a hint text
 tags:
   - Forms
   - Controls
@@ -11,7 +11,7 @@ reqs:
   - 3.3.2 A
 roles:
   - Design
-prio: 34
+prio: 209
 ---
 
 ## Description

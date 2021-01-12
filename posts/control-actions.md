@@ -1,6 +1,6 @@
 ---
 id: controls-action
-title: An action should be triggered when a user releases a control (up-event) and it must be possible to stop or undo
+title: Action should be triggered on release of a control (up-event) and be possible to stop or undo
 tags:
   - Controls
   - Buttons
@@ -18,7 +18,7 @@ reqs:
 roles:
   - Design
   - Tech
-prio: 16
+prio: 208
 ---
 
 ## Description
