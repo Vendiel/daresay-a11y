@@ -1,6 +1,6 @@
 ---
 id: pop-up-hoverable
-title: Any pop-up content that is shown on hover must also be hoverable
+title: Pop-up content that is shown on hover must be hoverable
 tags:
   - Tooltips
   - Pop-overs
@@ -9,6 +9,7 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 252
 ---
 
 ## Description

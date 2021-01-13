@@ -1,6 +1,6 @@
 ---
 id: content-dismissable
-title: Any pop-up content that is shown on hover or focus must be easily dismissable
+title: Pop-up content that is shown on hover or focus must be easily dismissible
 tags:
   - Tooltips
   - Pop-overs
@@ -9,6 +9,7 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 253
 ---
 
 ### Description
@@ -19,7 +20,7 @@ Recommended solutions is to make it possible to close it by pressing the Escape 
 
 ## Examples
 
-Examples of pop-up content: custom tooltips, sub-menus (drop down menus), nonmodal popovers.
+Examples of pop-up content: custom tooltips, sub-menus (drop down menus), non-modal popovers.
 
 ## Exceptions
 

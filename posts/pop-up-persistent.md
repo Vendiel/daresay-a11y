@@ -1,6 +1,6 @@
 ---
 id: pop-up-persistent
-title: Any pop-up content that is shown on hover or focus must remain persistent
+title: Pop-up content that is shown on hover or focus must remain persistent
 tags:
   - Tooltips
   - Pop-overs
@@ -9,6 +9,7 @@ reqs:
 roles:
   - Design
   - Tech
+prio: 251
 ---
 
 ## Description
