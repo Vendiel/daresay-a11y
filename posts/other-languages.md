@@ -3,10 +3,12 @@ id: other-languages
 title: If a portion of page is in another language than the default for the page, set the appropriate language for it
 tags:
   - Markup
+  - Text
 reqs:
   - 3.1.2 AA
 roles:
   - Tech
+prio: 126
 ---
 
 ## Description

@@ -1,13 +1,13 @@
 ---
 id: accurate-markup
-title: Make sure that all HTML validates according to chosen doctype
+title: All HTML shall validate against chosen doctype
 tags:
   - Markup
 reqs:
   - 4.1.1 A
 roles:
   - Tech
-prio: 9
+prio: 300
 ---
 
 ## Description

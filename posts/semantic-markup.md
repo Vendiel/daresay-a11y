@@ -1,6 +1,6 @@
 ---
 id: semantic-markup
-title: Use the right semantic markup for the different elements that are used
+title: Use correct semantic markup for the elements that are used
 tags:
   - Markup
 reqs:
@@ -8,6 +8,7 @@ reqs:
   - 4.1.1 A
 roles:
   - Tech
+prio: 301
 ---
 
 ## Description
@@ -27,4 +28,6 @@ Use elements according to their meaning, not because of the way they appear visu
 - Avoid emulating links and buttons by using div, span etc.
 - Emphasize text correctly.
 
-Note. Complement with ARIA when standard markup isn't insufficent. Like for instance if it's not possible to use native heading mark-up due to legacy, then use role="heading".
+## Additional information
+
+Complement with ARIA when standard markup isn't insufficent. Like for instance if it's not possible to use native heading mark-up due to legacy, then use role="heading".
