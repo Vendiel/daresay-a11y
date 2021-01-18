@@ -5,6 +5,8 @@
   padding: var(--spacing-6x);
   border-radius: 24px;
   margin-bottom: var(--spacing-6x);
+  -webkit-box-shadow: 0px 0px 4px 0px var(--color-gray-10);
+  box-shadow: 0px 0px 4px 0px var(--color-gray-10);
 }
 
 .nomarginbottom {

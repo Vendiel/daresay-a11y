@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import { ColorTheme, RelatedCard } from "../../components/general/RelatedCard/RelatedCard";
 import {
   RelatedCardType,
   RelatedInformation,
@@ -124,9 +123,9 @@ export default function AboutLawPage() {
           </p>
           <h3>WCAG 2.1</h3>
           <p>
-            The Web Content Accessibility Guidelines, <abbr>WCAG</abbr>, 2.1 is a global standard regarding
-            accessibility that's been written by accessibility specialists, volunteers and disabled people at
-            the World Wide Web Consortium, <abbr>W3C</abbr>.
+            The Web Content Accessibility Guidelines (WCAG) 2.1 is a global standard regarding accessibility
+            that's been written by accessibility specialists, volunteers and disabled people at the World Wide
+            Web Consortium, W3C.
           </p>
           <p>
             The 2.1 version was released the 5th of June 2018 and included 17 new criteria, which was focused
@@ -150,13 +149,13 @@ export default function AboutLawPage() {
             <li>Link to where it's possible to give feedback and comments.</li>
             <li>
               Link to the authority responsible for inspection, which in Sweden is{" "}
-              <span lang="se">Myndigheten för Digital Förvaltning</span>,<abbr>DIGG</abbr>.
+              <span lang="se">Myndigheten för Digital Förvaltning</span>, DIGG.
             </li>
           </ul>
           <p>
-            Go{" "}
+            Go check out{" "}
             <Link href="https://www.digg.se/om-oss/om-webbplatsen/tillganglighet">
-              <a>check out DIGGs own accessibility statement</a>
+              <a>DIGG's accessibility statement</a>
             </Link>{" "}
             as an example.
           </p>
@@ -165,25 +164,28 @@ export default function AboutLawPage() {
         <section className={"card zero-margin-bottom"}>
           <h2>What about the private sector?</h2>
           <p>
-            The European Accessibility Act is a <abbr>EU</abbr> Directive that became law in 2019. It
-            complements the Web Accessibility Directive and applies to the private sector, thus impacting a
-            much larger number of people.
+            The European Accessibility Act is a <abbr title="European Union">EU</abbr> Directive that became
+            law in 2019. It complements the Web Accessibility Directive and applies to the private sector,
+            thus impacting a much larger number of people.
           </p>
           <p>
-            This directive aims to improve the trade between members of the <abbr>EU</abbr> for accessible
-            products and services, by removing country specific rules. It covers:
+            This directive aims to improve the trade between members of the{" "}
+            <abbr title="European Union">EU</abbr> for accessible products and services, by removing country
+            specific rules. It covers:
             <ul>
-              <li>Smartphones, tablets and computers</li>
-              <li>Ticketing machines and check-in machines</li>
+              <li>Smartphones, tablets and computers (hardware and software)</li>
+              <li>ATMS, ticketing machines and check-in machines</li>
               <li>Televisions and TV programmes</li>
-              <li>Banking and ATMs</li>
+              <li>Banking services</li>
               <li>E-books</li>
-              <li>Online shopping websites and mobile applications</li>
+              <li>E-commerce (online shopping websites and mobile applications)</li>
+              <li>Services related to the transport sector (flights, bus, train, boat)</li>
             </ul>
           </p>
           <p>
             Member states have until 28 June 2022 to implement the Directive, meaning to turn it into national
-            law. Three years later, in 2025, the requirements must be implemented.
+            law. Three years later, 28 June 2025, most of the products and services covered by the law must
+            meet the requirements.
           </p>
         </section>
       </div>

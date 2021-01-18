@@ -3,7 +3,7 @@
   padding: var(--spacing-4x) var(--spacing-5x);
   border-radius: var(--spacing-4x);
   margin-right: var(--spacing-3x);
-  min-width: 160px;
+  min-width: 240px;
 }
 
 @media (max-width: 768px) {

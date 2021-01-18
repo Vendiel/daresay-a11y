@@ -26,7 +26,7 @@
 
   /* Related cards */
   --color-card1: #ffdeed;
-  --color-card2: #f1cdf1;
+  --color-card2: #f1d1ff;
   --color-card3: #d9e9ff;
   --color-card4: #c2edfa;
   --color-card5: #d8d8d8;
@@ -36,6 +36,12 @@
   --color-card3-dark: #0a49a0;
   --color-card4-dark: #065f7a;
   --color-card5-dark: #181d25;
+
+  --color-card1-hover: #ffd3e7;
+  --color-card2-hover: #ecc3ec;
+  --color-card3-hover: #bbd7ff;
+  --color-card4-hover: #a9e2f3;
+  --color-card5-hover: #c4c4c4;
 
   /* focus */
   --color-focus-general: #e06500;

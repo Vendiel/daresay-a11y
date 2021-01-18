@@ -24,3 +24,5 @@ Blind or low vision users with screen readers must be made aware of things that 
 ## Additional information
 
 Don’t use too many status messages, it can be too chatty and the user might be constantly disrupted when trying to navigate your site.
+
+See more about [ARIA live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions).

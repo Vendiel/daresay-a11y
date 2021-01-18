@@ -68,38 +68,6 @@ export const RelatedInformation = (props: Props) => {
           })}
         </div>
       </div>
-
-      {/* <div className={"wrapper related-info"}>
-        <h2>Related information</h2>
-        <div className={"flex-row margin-bottom-3x"}>
-          <RelatedCard
-            icon="🖋"
-            linkText="About the law"
-            url="/about-the-law"
-            colorTheme={ColorTheme.COLOR1}
-          />
-          <RelatedCard
-            icon="👩‍🦼"
-            linkText="Understanding the user"
-            url="/understanding-the-user"
-            colorTheme={ColorTheme.COLOR2}
-          />
-        </div>
-        <div className={"flex-row"}>
-          <RelatedCard
-            icon="🎖"
-            linkText="Your role and responsibility"
-            url="/roles-and-responsibility"
-            colorTheme={ColorTheme.COLOR3}
-          />
-          <RelatedCard
-            icon="📐"
-            linkText="Helpful tools"
-            url="/helpful-tools"
-            colorTheme={ColorTheme.COLOR4}
-          />
-        </div>
-      </div> */}
     </>
   );
 };

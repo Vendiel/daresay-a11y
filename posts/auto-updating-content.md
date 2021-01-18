@@ -13,7 +13,7 @@ prio: 70
 
 ## Description
 
-Content that start auto-updating automatically in parallell with other content can be a barrier for anyone who has trouble reading text quickly as well as anyone who has trouble tracking moving objects. It can also cause problems for screen readers.
+Content that start auto-updating automatically in parallel with other content can be a barrier for anyone who has trouble reading text quickly as well as anyone who has trouble tracking moving objects. It can also cause problems for screen readers.
 
 If content starts auto-updating automatically there must be a mechanism to pause, stop, hide or change frequency. It could be an interactive control like a pause/restart button or by using keyboard shortcuts like the Escape key. It could also be solved with a checkbox where the users choose if they want the information to be updated automatically or manually (where the manual alternative reveals a Refresh button).
 

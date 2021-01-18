@@ -48,7 +48,7 @@ main {
 /* index related */
 
 .colored-bg {
-  background-color: var(--color-primary-10);
+  background: linear-gradient(#dbeaff, 1%, var(--color-primary-10) 2% 98%, #dbeaff 100%);
 }
 
 .colored-bg .wrapper div {
@@ -59,7 +59,7 @@ main {
 /* colored intro */
 
 .colored-bg1 {
-  background-color: var(--color-card1);
+  background: linear-gradient(#ffd1e5, 1%, var(--color-card1) 2% 98%, #ffd1e5 100%);
 }
 
 .colored-bg1 h1 {
@@ -73,6 +73,7 @@ main {
 
 .colored-bg2 {
   background-color: var(--color-card2);
+  background: linear-gradient(#e6c3f5, 1%, var(--color-card2) 2% 98%, #e6c3f5 100%);
 }
 
 .colored-bg2 h1 {
@@ -85,7 +86,7 @@ main {
 }
 
 .colored-bg3 {
-  background-color: var(--color-card3);
+  background: linear-gradient(#c6daf5, 1%, var(--color-card3) 2% 98%, #c6daf5 100%);
 }
 
 .colored-bg3 h1 {
@@ -98,7 +99,7 @@ main {
 }
 
 .colored-bg4 {
-  background-color: var(--color-card4);
+  background: linear-gradient(#afe7f7, 1%, var(--color-card4) 2% 98%, #afe7f7 100%);
 }
 
 .colored-bg4 h1 {
@@ -128,6 +129,8 @@ main {
   padding: var(--spacing-6x);
   border-radius: 24px;
   margin-bottom: var(--spacing-6x);
+  -webkit-box-shadow: 0px 0px 4px 0px var(--color-gray-10);
+  box-shadow: 0px 0px 4px 0px var(--color-gray-10);
 }
 
 @media (max-width: 768px) {
@@ -219,6 +222,13 @@ main img {
   main img {
     width: 100%;
   }
+}
+
+figcaption {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  text-align: center;
 }
 
 /* zero padding margins etc */

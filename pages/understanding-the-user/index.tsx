@@ -71,10 +71,16 @@ export default function AboutUserPage() {
               overwhelming day can cause sensory overload.
             </li>
           </ul>
-          <img
-            src="/images/ms-persona-spectrum.png"
-            alt="Illustration: A chart of permanent, temporary, and situational disabilities. For touch, a person could have one arm, an arm injury, or be a new parent holding an infant. For sight, a person could be blind, have cataracts, or be a distracted driver. For hearing, the person might be deaf, have an ear infection, or be a bartender in a loud bar. When speaking, a person might be non-verbal, have laryngitis, or speak with a heavy accent."
-          />
+          <figure>
+            <img src="/images/ms-persona-spectrum.png" alt="" />
+            <figcaption>
+              Figure 1. Illustration showing a chart of permanent, temporary, and situational disabilities.
+              For touch, a person could have one arm, an arm injury, or be a new parent holding an infant. For
+              sight, a person could be blind, have cataracts, or be a distracted driver. For hearing, the
+              person might be deaf, have an ear infection, or be a bartender in a loud bar. When speaking, a
+              person might be non-verbal, have laryngitis, or speak with a heavy accent.
+            </figcaption>
+          </figure>
         </section>
 
         <section className={"card"}>
@@ -144,9 +150,9 @@ export default function AboutUserPage() {
               Try out navigating the user interface by using only your keyboard. The basics of keyboard
               testing is simple — make sure you can navigate to every interactive control using the Tab key
               and then use enter, (sometimes spacebar) to select an element and the arrow keys for in control
-              navigation. If you're interested you can{" "}
+              navigation. If you're interested you can learn more{" "}
               <Link href="https://webaim.org/techniques/keyboard/">
-                <a>learn more about keyboard navigation</a>
+                <a>about keyboard navigation</a>
               </Link>
             </li>
             <li>
@@ -215,20 +221,41 @@ export default function AboutUserPage() {
 
         <section className={"card zero-margin-bottom"}>
           <h2>Statistics</h2>
-          <p>Different types of disabilities and numbers, for Sweden:</p>
+          <p>
+            A common estimation is that about 20 percent of the Swedish population has some form of functional
+            limitation. The following numbers are based on a{" "}
+            <Link href="https://www.pts.se/globalassets/startpage/dokument/bransch/internet/marknadsoversikt-innovatorer/bilaga_statistiksammanstallning_rev_c_pts_marknadsoversikt_.pdf">
+              <a>report</a>
+            </Link>{" "}
+            by Swedish administration authority Post- och Telestyrelsen (PTS).
+          </p>
           <ul>
-            <li>1.5 million state that they are suffering from mental illness</li>
-            <li>600 000 with dyslexia</li>
-            <li>500 000 children are calculated to have ADHD</li>
-            <li>250 000 adults are calculated to have ADHD</li>
-            <li>120 000 with impaired vision</li>
-            <li>50 000 with an intellectual disability</li>
-            <li>30 000 with severe visual impairments</li>
-            <li>30 000 are deaf or have impaired hearing</li>
-            <li>515 000 with motor impairments</li>
-            <li>25% have reading and writing disabilities</li>
-            <li>Many suffering from rheumatism, but many are never diagnosed</li>
-            <li>Not to mention: many in society are not particular computer savvy or interested.</li>
+            <li>About 6 percent of the population has some form of limited movement/motor activity.</li>
+            <li>
+              About 20 percent of the population has reading- and writing difficulties. About 5-8 percent has
+              dyslexia.
+            </li>
+            <li>
+              About 1 percent of the population has a development disorder which makes it hard for the user to
+              understand and learn certain things. Beyond that it's estimated that 14 percent are borderline
+              intellectual functioning (an IQ of 70–85).
+            </li>
+            <li>
+              Almost 6 percent has problem reading even with the help glasses or lenses, i.e. suffers from
+              some form of visual impairment.
+            </li>
+            <li>
+              About 18 percent suffers of limited hearing and 4-5 percent uses a hearing aid. About 20 000
+              have such severe limited hearing that they need hearing implants.
+            </li>
+            <li>
+              Problem with concentration and memory connected to ADHD affects 3-6 percent of children and
+              teenagers and half will keep the diagnosis in adulthood.{" "}
+            </li>
+            <li>
+              About 150 000 has problem with concentration connected to dementia in Sweden and by 2050 the
+              number is expected to be doubled.
+            </li>
           </ul>
         </section>
       </div>

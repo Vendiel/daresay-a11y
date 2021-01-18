@@ -1,5 +1,5 @@
 .card {
-  flex-basis: 40%;
+  flex-basis: 48%;
   margin-top: var(--spacing-3x);
   padding: var(--spacing-5x);
   background-color: var(--color-white);
@@ -47,13 +47,18 @@
   background-color: var(--color-card1);
 }
 
+.color1 .arrow {
+  fill: var(--color-card1-dark);
+}
+
 a.color1:link,
 a.color1:visited {
   color: var(--color-card1-dark);
 }
 
-.color1 .arrow {
-  fill: var(--color-card1-dark);
+a.color1:hover,
+a.color1:active {
+  background-color: var(--color-card1-hover);
 }
 
 /*  Color 2  */
@@ -62,12 +67,18 @@ a.color1:visited {
   background-color: var(--color-card2);
 }
 
+.color2 .arrow {
+  fill: var(--color-card2-dark);
+}
+
 a.color2:link,
 a.color2:visited {
   color: var(--color-card2-dark);
 }
-.color2 .arrow {
-  fill: var(--color-card2-dark);
+
+a.color2:hover,
+a.color2:active {
+  background-color: var(--color-card2-hover);
 }
 
 /*  Color 3  */
@@ -76,13 +87,18 @@ a.color2:visited {
   background-color: var(--color-card3);
 }
 
+.color3 .arrow {
+  fill: var(--color-card3-dark);
+}
+
 a.color3:link,
 a.color3:visited {
   color: var(--color-card3-dark);
 }
 
-.color3 .arrow {
-  fill: var(--color-card3-dark);
+a.color3:hover,
+a.color3:active {
+  background-color: var(--color-card3-hover);
 }
 
 /*  Color 4  */
@@ -91,13 +107,18 @@ a.color3:visited {
   background-color: var(--color-card4);
 }
 
+.color4 .arrow {
+  fill: var(--color-card4-dark);
+}
+
 a.color4:link,
 a.color4:visited {
   color: var(--color-card4-dark);
 }
 
-.color4 .arrow {
-  fill: var(--color-card4-dark);
+a.color4:hover,
+a.color4:active {
+  background-color: var(--color-card4-hover);
 }
 
 /*  Color 5  */
@@ -115,18 +136,7 @@ a.color5:visited {
   fill: var(--color-card5-dark);
 }
 
-/* .color1 {
-  background-color: var(--color-card1);
+a.color5:hover,
+a.color5:active {
+  background-color: var(--color-card5-hover);
 }
-
-.color2 {
-  background-color: var(--color-card2);
-}
-
-.color3 {
-  background-color: var(--color-card3);
-}
-
-.color4 {
-  background-color: var(--color-card4);
-} */

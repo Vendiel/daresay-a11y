@@ -9,7 +9,7 @@ export default function ReportPage() {
 
       <div className={"colored-bg"}>
         <section className={"wrapper"}>
-          <h1>Accessibility of Daresay Accessibility Checklist</h1>
+          <h1>Accessibility report</h1>
           <p className={"ingress"}>
             This website is run by Daresay. We want as many people as possible to be able to use this website,
             and this document describes how Daresay Accessibility Checklist complies with the accessibility

@@ -52,16 +52,17 @@ export default function RolesPage() {
             user interface.
           </p>
           <p>
+            Get a basic{" "}
             <Link href="{`/understanding-the-user`}">
-              <a>Get a basic understanding of the users</a>
+              <a> understanding of the users</a>
             </Link>{" "}
             and always make sure your design works as intended for everyone by included users with
             disabilities when doing user tests.
           </p>
           <p>
-            When designing there are a lot of details to consider so{" "}
+            When designing there are a lot of details to consider so check out the{" "}
             <Link href="{`/checklist`}">
-              <a>check out the checklist</a>
+              <a>accessibility checklist</a>
             </Link>{" "}
             to make sure you don't miss anything, like giving all the colors good enough contrast, creating a
             logical layout and writing clear instructions or help texts. You can also check out this page with{" "}
@@ -84,9 +85,9 @@ export default function RolesPage() {
             shall do or even miss the element all together.
           </p>
           <p>
-            When implementing a design there is a lot of technical details to consider so{" "}
+            When implementing a design there is a lot of technical details to consider so check out the{" "}
             <Link href="{`/checklist`}">
-              <a>check out the checklist</a>
+              <a>accessibility checklist</a>
             </Link>{" "}
             to make sure you don't miss anything. For instance, make sure you follow coding guidelines, write
             semantic HTML, support keyboard navigation and use landmarks and correct hierarchy of the
@@ -98,8 +99,30 @@ export default function RolesPage() {
             cover every aspect that needs to be considered so it's important that you get a good grasp of what
             needs to be done. For tips on different tools, you can check out this page with{" "}
             <Link href="{`/helpful-tools`}">
-              <a> helpful tools</a>
+              <a>helpful tools</a>
             </Link>{" "}
+            .
+          </p>
+          <p>
+            If you're working with React it can be a good idea to check out work that others done, like this{" "}
+            <Link href="https://github.com/davidtheclark/react-aria-modal">
+              <a>accessible modal</a>
+            </Link>{" "}
+            or accessible components librarys like{" "}
+            <Link href="https://static.nrk.no/core-components/latest/index.html">
+              <a>Core Components</a>
+            </Link>{" "}
+            and{" "}
+            <Link href="https://reach.tech/">
+              <a>Reach UI</a>
+            </Link>
+            .
+          </p>
+          <p>
+            For more components related to different frameworks, check out{" "}
+            <Link href="https://ds.gpii.net/develop/components?">
+              <a>GPII Components</a>
+            </Link>
             .
           </p>
         </section>
@@ -120,7 +143,7 @@ export default function RolesPage() {
             </Link>{" "}
             .
           </p>
-          <p>It's also recommended that you include accessibility in ordinarey test cases.</p>
+          <p>It's also recommended that you include accessibility in ordinary test cases.</p>
         </section>
       </div>
 

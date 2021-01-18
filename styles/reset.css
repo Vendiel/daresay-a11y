@@ -127,3 +127,20 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* https://css-tricks.com/box-sizing/
+   Box-sizing 2015-05-06
+*/
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}

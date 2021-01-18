@@ -22,9 +22,9 @@ export default function Home() {
               Hi <span aria-hidden="true">👋</span>
             </h1>
             <p className={"ingress"}>
-              Accessibility (<abbr>a11y</abbr>) is the practice of making your digital service, experience and
-              information understandable and usable for everyone. It's also about treating everyone the same,
-              giving everyone equal opportunity, no matter ability or circumstances.
+              Accessibility (a11y) is the practice of making your digital service, experience and information
+              understandable and usable for everyone. It's also about treating everyone the same, giving
+              everyone equal opportunity, no matter ability or circumstances.
             </p>
             <p className={"ingress"}>
               At Daresay we incorporate this mindset in everything we do and by sharing this checklist with
@@ -44,8 +44,8 @@ export default function Home() {
               <p>
                 The checklist summarises the accessibility requirements with focus on level A and AA that has
                 been stated in{" "}
-                <Link href="/">
-                  <a>Content Accessibility Guidelines (WCAG) 2.1</a>
+                <Link href="https://www.w3.org/WAI/WCAG21/quickref/">
+                  <a>Web Content Accessibility Guidelines (WCAG) 2.1</a>
                 </Link>
                 , but in a more graspable, easier way.
               </p>
