@@ -2,7 +2,6 @@ import Head from "next/head";
 import Link from "next/link";
 import { LinkButton } from "../components/general/LinkButton/LinkButton";
 import { MainCard } from "../components/general/MainCard/MainCard";
-import { ColorTheme, RelatedCard } from "../components/general/RelatedCard/RelatedCard";
 import {
   RelatedCardType,
   RelatedInformation,
