@@ -32,7 +32,7 @@ Not applied:
 
 ## Exceptions
 
-It’s unclear if this reqsuirement only applies when the keyboard shortcuts consist of a single character shortcut. Single character shortcuts seem to yield more problems.
+It’s unclear if this requirement only applies when the keyboard shortcuts consist of a single character shortcut. Single character shortcuts seem to yield more problems.
 
 ## Additional information
 

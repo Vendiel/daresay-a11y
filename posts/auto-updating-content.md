@@ -33,4 +33,4 @@ If you pause content, consider what kind of content that is displayed to set an 
 - Pausing and resuming where the user left off is the best option for content that is not real-time events or a status.
 - Pausing and jumping forward to current status/event is better for information that is real-time, like weather radar, stock tickers, traffic camera, auction timer. The information that’s shown been the pause and restart does need to be preserved and presented.
 
-If you fulfill this guideline by changing the freqsuency of the auto-updating content, then make sure you also fulfill the specific reqsuirements for how much users need to be able to adjust or extend the time limit, see related guideline.
+If you fulfill this guideline by changing the freqsuency of the auto-updating content, then make sure you also fulfill the specific requirements for how much users need to be able to adjust or extend the time limit, see related guideline.

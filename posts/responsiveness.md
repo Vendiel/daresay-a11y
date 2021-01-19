@@ -37,7 +37,7 @@ Make the design responsive so it can be displayed down to a width of 320 CSS pix
 
 ## Exceptions
 
-1. Content which reqsuires two-dimensional layout: Images and video (do not cut them up and stack them, shrink them instead)
+1. Content which requires two-dimensional layout: Images and video (do not cut them up and stack them, shrink them instead)
 2. Interfaces with toolbars to edit content where it's necessary to keep toolbars in view while manipulating content.
 
 ## Tips
@@ -48,4 +48,4 @@ For content that is scrolled horizontally, the layout should work to a height of
 
 ## Additional information
 
-This reqsuirement is connected to guidelines for criterion 1.4.4 (resize text up to 200%). If the text zooms with the UI you'll fulfill the 1.4.4 reqsuirement as well. If you make adjustment to the text size per media query, make sure you don't make it too small. It still needs to become 200% from default (otherwise it must still be possible to also increase text size up to 200% of default).
+This requirement is connected to guidelines for criterion 1.4.4 (resize text up to 200%). If the text zooms with the UI you'll fulfill the 1.4.4 requirement as well. If you make adjustment to the text size per media query, make sure you don't make it too small. It still needs to become 200% from default (otherwise it must still be possible to also increase text size up to 200% of default).

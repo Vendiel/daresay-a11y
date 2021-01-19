@@ -16,7 +16,7 @@ prio: 209
 
 ## Description
 
-Like date format or password reqsuirements. Don’t make it too long and verbose. Given enough information so the user can accomplish the task without confusion and need to navigate through the page once more to correct errors.
+Like date format or password requirements. Don’t make it too long and verbose. Given enough information so the user can accomplish the task without confusion and need to navigate through the page once more to correct errors.
 
 ## Suggestions
 

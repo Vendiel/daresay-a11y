@@ -16,7 +16,7 @@ Some users might accidentally trigger the function connected to the motion due t
 
 ## Additional information
 
-Applications may be able to meet this reqsuirement by supporting operating system settings which allow the user to disable motion detection at system level (prefers-reduced-motion).
+Applications may be able to meet this requirement by supporting operating system settings which allow the user to disable motion detection at system level (prefers-reduced-motion).
 
 ## Exceptions
 
